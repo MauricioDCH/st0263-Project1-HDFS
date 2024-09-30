@@ -1,0 +1,6 @@
+grpcio
+grpcio-tools
+pip
+protobuf==5.27.2
+setuptools
+python-dotenv

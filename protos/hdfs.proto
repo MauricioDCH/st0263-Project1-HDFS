@@ -1,0 +1,174 @@
+syntax = "proto3";
+
+package hdfs;
+
+// Mensajes de solicitud y respuesta para el servicio FullServices
+
+// 1. Solicitud para obtener URLs de DataNodes donde se almacenan los bloques de un archivo específico.
+message DataNodeDesignationClientRequest {
+    string nombre_archivo = 1;            // Nombre del archivo que se quiere subir
+    float tamano_archivo = 2;              // Tamano total del archivo
+    string nombre_usuario = 3;             // Identificación del usuario que sube el archivo
+    string url_cliente = 4;                // Dirección IP y puerto del cliente
+    int32 numero_de_replicas_por_bloque = 5; // Número de réplicas por bloque
+}
+
+message DataNodeDesignationNameNodeResponse {
+    repeated int32 lista_id_data_node_lider = 1; // IDs de DataNodes donde se almacenarán los bloques originales
+    repeated int32 lista_id_data_node_seguidor = 2; // IDs de DataNodes donde se almacenarán las réplicas
+    repeated string lista_url_data_node_lider = 3; // URLs de los DataNodes donde se almacenarán los bloques originales
+    repeated string lista_url_data_node_seguidor = 4; // URLs de los DataNodes donde se almacenarán las réplicas
+}
+
+// 2. Solicitud de informe de bloques por parte del DataNode.
+message BlockReportDataNodeRequest {
+    repeated string lista_rutas_bloques_seguidor = 1; // Rutas de bloques del DataNode
+    repeated string lista_rutas_bloques_lider = 2;
+    string json_diccionario_metadatos_bloques_seguidor = 3; // Metadatos de bloques en formato JSON
+    string json_diccionario_metadatos_bloques_lider = 4;
+}
+
+message BlockReportNameNodeResponse {
+    bool estado_exitoso = 1; // Estado de la actualización
+}
+
+// 3. Solicitud para consultar la ubicación de los bloques de un archivo.
+message FileLocationClientRequest {
+    string nombre_archivo = 1;     // Nombre del archivo
+    string nombre_usuario = 2;      // Identificación del usuario
+    string url_cliente = 3;         // Dirección IP y puerto del cliente
+}
+
+message FileLocationNameNodeResponse {
+    repeated int32 lista_id_data_node_seguidor = 1; // IDs de los DataNodes donde se replicará este bloque
+    repeated int32 lista_id_data_node_lider = 2;    // IDs de los DataNodes donde se almacenarán los bloques originales
+    repeated string lista_url_data_node_seguidor = 3; // URLs de los DataNodes donde se replicará este bloque
+    repeated string lista_url_data_node_lider = 4;    // URLs de los DataNodes donde se almacenarán los bloques originales
+    repeated string lista_rutas_bloques_seguidor = 5; // Rutas de bloques del DataNode
+    repeated string lista_rutas_bloques_lider = 6;    // Rutas de bloques del DataNode
+}
+
+// 4. Solicitud para el respaldo de metadatos entre NameNode Líder y Seguidor.
+message BackUpNameNodeLeaderRequest {
+    repeated string lista_todos_los_archivos_en_namenodeleader = 1; // Archivos en NameNode líder
+    repeated string lista_todos_contenidos_los_archivos_en_namenodeleader = 2; // Contenido de los archivos
+    repeated string lista_diccionario_metadatos_archivos = 3; // Metadatos de los archivos
+}
+
+message BackUpNameNodeFollowerResponse {
+    bool estado_exitoso = 1; // Estado de la operación de respaldo
+}
+
+// 5. Solicitud de handshake entre NameNode y DataNode.
+message HandShakeDataNodeRequest {
+    string data_node_ip = 1; // IP del DataNode
+    int32 data_node_port = 2; // Puerto del DataNode
+}
+
+message HandShakeNameNodeResponse {
+    int32 id_data_node = 1; // ID del DataNode
+    bool estado_exitoso = 2; // Estado de la conexión
+}
+
+// 6. Solicitud de latido (heartbeat) entre DataNode y NameNode.
+message HeartBeatDataNodeRequest {
+    int32 id_data_node = 1; // ID del DataNode
+}
+
+message HeartBeatNameNodeResponse {
+    bool estado_exitoso = 1; // Estado de la operación
+    string timestrap = 2;    // Timestamp del latido
+}
+
+
+// 7. Solicitud para descargar un archivo desde un DataNode.
+message DownloadFileClientRequest {
+    string nombre_archivo = 1;  // Nombre del archivo a descargar
+    string nombre_usuario = 2;   // Identificación del usuario
+    string url_cliente = 3;      // Dirección IP y puerto del cliente
+    repeated string rutas_bloques_seguidor = 4; // Rutas de bloques del DataNode
+}
+
+message DownloadFileDataNodeResponse {
+    repeated bytes lista_contenido_bloques_seguidor = 1; // Contenido de los bloques
+    repeated int32 lista_id_bloque_seguidor = 2; // IDs de los bloques
+    repeated int32 lista_tamano_bloque_seguidor = 3; // Tamanos de los bloques
+    bool estado_exitoso = 4; // Estado de la descarga
+}
+
+// 8. Solicitud para subir un archivo a un DataNode.
+message UploadFileClientRequest {
+    string nombre_archivo = 1;         // Nombre del archivo a subir
+    string nombre_usuario = 2;          // Identificación del usuario
+    string url_cliente = 3;             // Dirección IP y puerto del cliente
+    repeated bytes lista_contenido_bloques_lider = 4; // Contenido del bloque en binario
+    repeated int32 lista_id_data_node_lider = 5; // IDs de DataNodes donde se almacenarán los bloques
+    repeated int32 lista_id_data_node_seguidor = 6; // IDs de los DataNodes donde se replicarán los bloques
+    repeated string lista_url_data_node_lider = 7; // URLs de los DataNodes donde se almacenarán los bloques
+    repeated string lista_url_data_node_seguidor = 8; // URLs de los DataNodes donde se replicarán los bloques
+}
+
+message UploadFileDataNodeResponse {
+    bool estado_exitoso = 1; // Estado de la operación de subida
+}
+
+// 9. Solicitud para eliminar un archivo en un DataNode.
+message DeleteFileClientRequest {
+    string nombre_usuario = 1;         // Identificación del usuario que borra el archivo
+    string url_cliente = 2;             // Dirección IP y puerto del cliente
+    repeated int32 lista_id_bloque_lider = 3; // IDs de los bloques originales
+    repeated int32 lista_id_bloque_seguidor = 4; // IDs de los bloques replicados
+    repeated string lista_url_data_node_lider = 5; // URLs de los DataNodes donde se almacenan los bloques originales
+    repeated string lista_url_data_node_seguidor = 6; // URLs de los DataNodes donde se replican los bloques
+    repeated string lista_rutas_bloques_lider = 7; // Rutas de los bloques originales
+    repeated string lista_rutas_bloques_seguidor = 8; // Rutas de los bloques replicados
+}
+
+message DeleteFileDataNodeResponse {
+    bool estado_exitoso = 1; // Estado de la operación de eliminación
+}
+
+// 10. Solicitud para leer el contenido de un archivo en un DataNode.
+message ReadFileClientRequest {
+    string nombre_archivo = 1; // Nombre del archivo a leer
+    string nombre_usuario = 2;  // Identificación del usuario
+    string url_cliente = 3;     // Dirección IP y puerto del cliente
+}
+
+message ReadFileDataNodeResponse {
+    repeated bytes lista_contenido_bloques_seguidor = 1; // Contenido de los bloques
+    bool estado_exitoso = 2; // Estado de la operación de lectura
+}
+
+// 11. Solicitud para la replicación de bloques entre DataNode Líder y Seguidor.
+message PipeLineDataNodeRequest {
+    string nombre_archivo = 1;        // Nombre del archivo
+    repeated int32 id_bloque_lider = 2; // ID del bloque original
+    repeated int32 id_bloque_seguidor = 3; // ID del bloque replicado
+    repeated bytes contenido_bloques_lider = 4; // Contenido del bloque original
+    repeated bytes contenido_bloques_seguidor = 5; // Contenido del bloque replicado
+}
+
+message PipeLineDataNodeResponse {
+    int32 id_bloque_lider = 1; // ID del bloque original almacenado
+    int32 id_bloque_seguidor = 2; // ID del bloque replicado almacenado
+    bool estado_exitoso = 3; // Estado del almacenamiento
+    string tamano_bloque_lider = 4; // Tamano del bloque original almacenado
+    string tamano_bloque_seguidor = 5; // Tamano del bloque replicado almacenado
+}
+
+
+// Definición del servicio FullServices
+service FullServices {
+    rpc DataNodeDesignationNameNodeClient(DataNodeDesignationClientRequest) returns (DataNodeDesignationNameNodeResponse);
+    rpc BlockReportNameNodeDataNode(BlockReportDataNodeRequest) returns (BlockReportNameNodeResponse);
+    rpc FileLocationNameNodeClient(FileLocationClientRequest) returns (FileLocationNameNodeResponse);
+    rpc BackUpNameNodeFollowerNameNodeLeader(BackUpNameNodeLeaderRequest) returns (BackUpNameNodeFollowerResponse);
+    rpc HandShakeNameNodeDataNode(HandShakeDataNodeRequest) returns (HandShakeNameNodeResponse);
+    rpc HeartBeatNameNodeDataNode(HeartBeatDataNodeRequest) returns (HeartBeatNameNodeResponse);
+    rpc DownloadFileDataNodeClient(DownloadFileClientRequest) returns (DownloadFileDataNodeResponse);
+    rpc UploadFileDataNodeClient(UploadFileClientRequest) returns (UploadFileDataNodeResponse);
+    rpc DeleteFileDataNodeClient(DeleteFileClientRequest) returns (DeleteFileDataNodeResponse);
+    rpc ReadFileDataNodeClient(ReadFileClientRequest) returns (ReadFileDataNodeResponse);
+    rpc PipeLineDataNodeResponseDataNodeRequest(PipeLineDataNodeRequest) returns (PipeLineDataNodeResponse);
+}
