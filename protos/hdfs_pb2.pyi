@@ -32,16 +32,32 @@ class DataNodeDesignationNameNodeResponse(_message.Message):
     def __init__(self, lista_id_data_node_lider: _Optional[_Iterable[int]] = ..., lista_id_data_node_seguidor: _Optional[_Iterable[int]] = ..., lista_url_data_node_lider: _Optional[_Iterable[str]] = ..., lista_url_data_node_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class BlockReportDataNodeRequest(_message.Message):
-    __slots__ = ("lista_rutas_bloques_seguidor", "lista_rutas_bloques_lider", "json_diccionario_metadatos_bloques_seguidor", "json_diccionario_metadatos_bloques_lider")
+    __slots__ = ("id_data_node", "lista_rutas_bloques_seguidor", "lista_rutas_bloques_lider", "json_diccionario_metadatos_bloques_seguidor", "json_diccionario_metadatos_bloques_lider", "id_bloque", "ruta_lider", "id_lider", "url_lider", "ids_seguidores", "urls_seguidores", "rutas_seguidores")
+    ID_DATA_NODE_FIELD_NUMBER: _ClassVar[int]
     LISTA_RUTAS_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     LISTA_RUTAS_BLOQUES_LIDER_FIELD_NUMBER: _ClassVar[int]
     JSON_DICCIONARIO_METADATOS_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     JSON_DICCIONARIO_METADATOS_BLOQUES_LIDER_FIELD_NUMBER: _ClassVar[int]
+    ID_BLOQUE_FIELD_NUMBER: _ClassVar[int]
+    RUTA_LIDER_FIELD_NUMBER: _ClassVar[int]
+    ID_LIDER_FIELD_NUMBER: _ClassVar[int]
+    URL_LIDER_FIELD_NUMBER: _ClassVar[int]
+    IDS_SEGUIDORES_FIELD_NUMBER: _ClassVar[int]
+    URLS_SEGUIDORES_FIELD_NUMBER: _ClassVar[int]
+    RUTAS_SEGUIDORES_FIELD_NUMBER: _ClassVar[int]
+    id_data_node: int
     lista_rutas_bloques_seguidor: _containers.RepeatedScalarFieldContainer[str]
     lista_rutas_bloques_lider: _containers.RepeatedScalarFieldContainer[str]
     json_diccionario_metadatos_bloques_seguidor: str
     json_diccionario_metadatos_bloques_lider: str
-    def __init__(self, lista_rutas_bloques_seguidor: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_lider: _Optional[_Iterable[str]] = ..., json_diccionario_metadatos_bloques_seguidor: _Optional[str] = ..., json_diccionario_metadatos_bloques_lider: _Optional[str] = ...) -> None: ...
+    id_bloque: str
+    ruta_lider: str
+    id_lider: str
+    url_lider: str
+    ids_seguidores: _containers.RepeatedScalarFieldContainer[str]
+    urls_seguidores: _containers.RepeatedScalarFieldContainer[str]
+    rutas_seguidores: _containers.RepeatedScalarFieldContainer[str]
+    def __init__(self, id_data_node: _Optional[int] = ..., lista_rutas_bloques_seguidor: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_lider: _Optional[_Iterable[str]] = ..., json_diccionario_metadatos_bloques_seguidor: _Optional[str] = ..., json_diccionario_metadatos_bloques_lider: _Optional[str] = ..., id_bloque: _Optional[str] = ..., ruta_lider: _Optional[str] = ..., id_lider: _Optional[str] = ..., url_lider: _Optional[str] = ..., ids_seguidores: _Optional[_Iterable[str]] = ..., urls_seguidores: _Optional[_Iterable[str]] = ..., rutas_seguidores: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class BlockReportNameNodeResponse(_message.Message):
     __slots__ = ("estado_exitoso",)
@@ -134,16 +150,12 @@ class DownloadFileClientRequest(_message.Message):
     def __init__(self, nombre_archivo: _Optional[str] = ..., nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ..., rutas_bloques_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class DownloadFileDataNodeResponse(_message.Message):
-    __slots__ = ("lista_contenido_bloques_seguidor", "lista_id_bloque_seguidor", "lista_tamano_bloque_seguidor", "estado_exitoso")
+    __slots__ = ("lista_contenido_bloques_seguidor", "estado_exitoso")
     LISTA_CONTENIDO_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
-    LISTA_ID_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
-    LISTA_TAMANO_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     ESTADO_EXITOSO_FIELD_NUMBER: _ClassVar[int]
     lista_contenido_bloques_seguidor: _containers.RepeatedScalarFieldContainer[bytes]
-    lista_id_bloque_seguidor: _containers.RepeatedScalarFieldContainer[int]
-    lista_tamano_bloque_seguidor: _containers.RepeatedScalarFieldContainer[int]
     estado_exitoso: bool
-    def __init__(self, lista_contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ..., lista_id_bloque_seguidor: _Optional[_Iterable[int]] = ..., lista_tamano_bloque_seguidor: _Optional[_Iterable[int]] = ..., estado_exitoso: bool = ...) -> None: ...
+    def __init__(self, lista_contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ..., estado_exitoso: bool = ...) -> None: ...
 
 class UploadFileClientRequest(_message.Message):
     __slots__ = ("nombre_archivo", "nombre_usuario", "url_cliente", "lista_contenido_bloques_lider", "lista_id_data_node_lider", "lista_id_data_node_seguidor", "lista_url_data_node_lider", "lista_url_data_node_seguidor")
@@ -172,7 +184,8 @@ class UploadFileDataNodeResponse(_message.Message):
     def __init__(self, estado_exitoso: bool = ...) -> None: ...
 
 class DeleteFileClientRequest(_message.Message):
-    __slots__ = ("nombre_usuario", "url_cliente", "lista_id_bloque_lider", "lista_id_bloque_seguidor", "lista_url_data_node_lider", "lista_url_data_node_seguidor", "lista_rutas_bloques_lider", "lista_rutas_bloques_seguidor")
+    __slots__ = ("nombre_archivo", "nombre_usuario", "url_cliente", "lista_id_bloque_lider", "lista_id_bloque_seguidor", "lista_url_data_node_lider", "lista_url_data_node_seguidor", "lista_rutas_bloques_lider", "lista_rutas_bloques_seguidor")
+    NOMBRE_ARCHIVO_FIELD_NUMBER: _ClassVar[int]
     NOMBRE_USUARIO_FIELD_NUMBER: _ClassVar[int]
     URL_CLIENTE_FIELD_NUMBER: _ClassVar[int]
     LISTA_ID_BLOQUE_LIDER_FIELD_NUMBER: _ClassVar[int]
@@ -181,6 +194,7 @@ class DeleteFileClientRequest(_message.Message):
     LISTA_URL_DATA_NODE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     LISTA_RUTAS_BLOQUES_LIDER_FIELD_NUMBER: _ClassVar[int]
     LISTA_RUTAS_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
+    nombre_archivo: str
     nombre_usuario: str
     url_cliente: str
     lista_id_bloque_lider: _containers.RepeatedScalarFieldContainer[int]
@@ -189,7 +203,7 @@ class DeleteFileClientRequest(_message.Message):
     lista_url_data_node_seguidor: _containers.RepeatedScalarFieldContainer[str]
     lista_rutas_bloques_lider: _containers.RepeatedScalarFieldContainer[str]
     lista_rutas_bloques_seguidor: _containers.RepeatedScalarFieldContainer[str]
-    def __init__(self, nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ..., lista_id_bloque_lider: _Optional[_Iterable[int]] = ..., lista_id_bloque_seguidor: _Optional[_Iterable[int]] = ..., lista_url_data_node_lider: _Optional[_Iterable[str]] = ..., lista_url_data_node_seguidor: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_lider: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
+    def __init__(self, nombre_archivo: _Optional[str] = ..., nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ..., lista_id_bloque_lider: _Optional[_Iterable[int]] = ..., lista_id_bloque_seguidor: _Optional[_Iterable[int]] = ..., lista_url_data_node_lider: _Optional[_Iterable[str]] = ..., lista_url_data_node_seguidor: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_lider: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class DeleteFileDataNodeResponse(_message.Message):
     __slots__ = ("estado_exitoso",)
@@ -198,14 +212,26 @@ class DeleteFileDataNodeResponse(_message.Message):
     def __init__(self, estado_exitoso: bool = ...) -> None: ...
 
 class ReadFileClientRequest(_message.Message):
-    __slots__ = ("nombre_archivo", "nombre_usuario", "url_cliente")
+    __slots__ = ("nombre_archivo", "nombre_usuario", "url_cliente", "lista_id_bloque_lider", "lista_id_bloque_seguidor", "lista_url_data_node_lider", "lista_url_data_node_seguidor", "lista_rutas_bloques_lider", "lista_rutas_bloques_seguidor")
     NOMBRE_ARCHIVO_FIELD_NUMBER: _ClassVar[int]
     NOMBRE_USUARIO_FIELD_NUMBER: _ClassVar[int]
     URL_CLIENTE_FIELD_NUMBER: _ClassVar[int]
+    LISTA_ID_BLOQUE_LIDER_FIELD_NUMBER: _ClassVar[int]
+    LISTA_ID_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
+    LISTA_URL_DATA_NODE_LIDER_FIELD_NUMBER: _ClassVar[int]
+    LISTA_URL_DATA_NODE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
+    LISTA_RUTAS_BLOQUES_LIDER_FIELD_NUMBER: _ClassVar[int]
+    LISTA_RUTAS_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     nombre_archivo: str
     nombre_usuario: str
     url_cliente: str
-    def __init__(self, nombre_archivo: _Optional[str] = ..., nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ...) -> None: ...
+    lista_id_bloque_lider: _containers.RepeatedScalarFieldContainer[int]
+    lista_id_bloque_seguidor: _containers.RepeatedScalarFieldContainer[int]
+    lista_url_data_node_lider: _containers.RepeatedScalarFieldContainer[str]
+    lista_url_data_node_seguidor: _containers.RepeatedScalarFieldContainer[str]
+    lista_rutas_bloques_lider: _containers.RepeatedScalarFieldContainer[str]
+    lista_rutas_bloques_seguidor: _containers.RepeatedScalarFieldContainer[str]
+    def __init__(self, nombre_archivo: _Optional[str] = ..., nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ..., lista_id_bloque_lider: _Optional[_Iterable[int]] = ..., lista_id_bloque_seguidor: _Optional[_Iterable[int]] = ..., lista_url_data_node_lider: _Optional[_Iterable[str]] = ..., lista_url_data_node_seguidor: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_lider: _Optional[_Iterable[str]] = ..., lista_rutas_bloques_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class ReadFileDataNodeResponse(_message.Message):
     __slots__ = ("lista_contenido_bloques_seguidor", "estado_exitoso")

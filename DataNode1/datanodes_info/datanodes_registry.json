@@ -1,0 +1,14 @@
+{
+    "data_nodes": [
+        {
+            "id_data_node": 50,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
+        },
+        {
+            "id_data_node": 52,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
+        }
+    ]
+}

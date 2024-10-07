@@ -19,18 +19,46 @@ message DataNodeDesignationNameNodeResponse {
     repeated string lista_url_data_node_lider = 3; // URLs de los DataNodes donde se almacenarán los bloques originales
     repeated string lista_url_data_node_seguidor = 4; // URLs de los DataNodes donde se almacenarán las réplicas
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2. Solicitud de informe de bloques por parte del DataNode.
+//message BlockReportDataNodeRequest {
+    //int32 id_data_node = 1; // ID del DataNode
+    //repeated string lista_rutas_bloques_seguidor = 2; // Rutas de bloques del DataNode
+    //repeated string lista_rutas_bloques_lider = 3;
+    //string json_diccionario_metadatos_bloques_seguidor = 4; // Metadatos de bloques en formato JSON
+    //string json_diccionario_metadatos_bloques_lider = 5;
+//}
+
+//message BlockReportNameNodeResponse {
+    //bool estado_exitoso = 1; // Estado de la actualización
+//}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 2. Solicitud de informe de bloques por parte del DataNode.
 message BlockReportDataNodeRequest {
-    repeated string lista_rutas_bloques_seguidor = 1; // Rutas de bloques del DataNode
-    repeated string lista_rutas_bloques_lider = 2;
-    string json_diccionario_metadatos_bloques_seguidor = 3; // Metadatos de bloques en formato JSON
-    string json_diccionario_metadatos_bloques_lider = 4;
+    int32 id_data_node = 1; // ID del DataNode
+    repeated string lista_rutas_bloques_seguidor = 2; // Rutas de bloques del DataNode
+    repeated string lista_rutas_bloques_lider = 3; // Rutas de bloques en el DataNode líder
+    string json_diccionario_metadatos_bloques_seguidor = 4; // Metadatos de bloques en formato JSON
+    string json_diccionario_metadatos_bloques_lider = 5; // Metadatos de bloques en formato JSON
+
+    // Nueva información sobre los bloques
+    string id_bloque = 6; // ID del bloque
+    string ruta_lider = 7; // Ruta del bloque en el DataNode líder
+    string id_lider = 8; // ID del DataNode líder
+    string url_lider = 9; // URL del DataNode líder
+    repeated string ids_seguidores = 10; // IDs de los seguidores para este bloque
+    repeated string urls_seguidores = 11; // URLs de los seguidores para este bloque
+    repeated string rutas_seguidores = 12; // Rutas de los bloques en los DataNodes seguidores
 }
 
 message BlockReportNameNodeResponse {
     bool estado_exitoso = 1; // Estado de la actualización
 }
+
+
+
+
 
 // 3. Solicitud para consultar la ubicación de los bloques de un archivo.
 message FileLocationClientRequest {
@@ -91,9 +119,10 @@ message DownloadFileClientRequest {
 
 message DownloadFileDataNodeResponse {
     repeated bytes lista_contenido_bloques_seguidor = 1; // Contenido de los bloques
-    repeated int32 lista_id_bloque_seguidor = 2; // IDs de los bloques
-    repeated int32 lista_tamano_bloque_seguidor = 3; // Tamanos de los bloques
-    bool estado_exitoso = 4; // Estado de la descarga
+    //repeated int32 lista_id_bloque_seguidor = 2; // IDs de los bloques
+    //repeated int32 lista_tamano_bloque_seguidor = 3; // Tamanos de los bloques
+    //bool estado_exitoso = 4; // Estado de la descarga
+    bool estado_exitoso = 2; // Estado de la descarga
 }
 
 // 8. Solicitud para subir un archivo a un DataNode.
@@ -114,14 +143,15 @@ message UploadFileDataNodeResponse {
 
 // 9. Solicitud para eliminar un archivo en un DataNode.
 message DeleteFileClientRequest {
-    string nombre_usuario = 1;         // Identificación del usuario que borra el archivo
-    string url_cliente = 2;             // Dirección IP y puerto del cliente
-    repeated int32 lista_id_bloque_lider = 3; // IDs de los bloques originales
-    repeated int32 lista_id_bloque_seguidor = 4; // IDs de los bloques replicados
-    repeated string lista_url_data_node_lider = 5; // URLs de los DataNodes donde se almacenan los bloques originales
-    repeated string lista_url_data_node_seguidor = 6; // URLs de los DataNodes donde se replican los bloques
-    repeated string lista_rutas_bloques_lider = 7; // Rutas de los bloques originales
-    repeated string lista_rutas_bloques_seguidor = 8; // Rutas de los bloques replicados
+    string nombre_archivo = 1; // Nombre del archivo a eliminar
+    string nombre_usuario = 2;         // Identificación del usuario que borra el archivo
+    string url_cliente = 3;             // Dirección IP y puerto del cliente
+    repeated int32 lista_id_bloque_lider = 4; // IDs de los bloques originales
+    repeated int32 lista_id_bloque_seguidor = 5; // IDs de los bloques replicados
+    repeated string lista_url_data_node_lider = 6; // URLs de los DataNodes donde se almacenan los bloques originales
+    repeated string lista_url_data_node_seguidor = 7; // URLs de los DataNodes donde se replican los bloques
+    repeated string lista_rutas_bloques_lider = 8; // Rutas de los bloques originales
+    repeated string lista_rutas_bloques_seguidor = 9; // Rutas de los bloques replicados
 }
 
 message DeleteFileDataNodeResponse {
@@ -133,6 +163,12 @@ message ReadFileClientRequest {
     string nombre_archivo = 1; // Nombre del archivo a leer
     string nombre_usuario = 2;  // Identificación del usuario
     string url_cliente = 3;     // Dirección IP y puerto del cliente
+    repeated int32 lista_id_bloque_lider = 4; // IDs de los bloques originales
+    repeated int32 lista_id_bloque_seguidor = 5; // IDs de los bloques replicados
+    repeated string lista_url_data_node_lider = 6; // URLs de los DataNodes donde se almacenan los bloques originales
+    repeated string lista_url_data_node_seguidor = 7; // URLs de los DataNodes donde se replican los bloques
+    repeated string lista_rutas_bloques_lider = 8; // Rutas de los bloques originales
+    repeated string lista_rutas_bloques_seguidor = 9; // Rutas de los bloques replicados
 }
 
 message ReadFileDataNodeResponse {
