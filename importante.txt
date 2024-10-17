@@ -1,0 +1,100 @@
+python -m grpc_tools.protoc -I=. --python_out=. --pyi_out=. --grpc_python_out=. protos/hdfs.proto
+
+st0263-Project1-HDFS/
+├── Arquitectura_HDFS.png
+├── Cliente
+│   ├── autentication.py
+│   ├── client.py
+│   ├── CLI.py
+│   ├── gestor_archivos.py
+│   ├── grpc_client.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── autentication.cpython-312.pyc
+│   │   ├── CLI.cpython-312.pyc
+│   │   ├── gestor_archivos.cpython-312.pyc
+│   │   ├── grpc_client.cpython-312.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── split_merge_methods.cpython-312.pyc
+│   ├── resources
+│   │   ├── catalog.json
+│   │   ├── downloaded_files
+│   │   └── uploadable_files
+│   │       ├── a.txt
+│   │       ├── datos.txt
+│   │       ├── hola.txt
+│   │       ├── test.txt
+│   │       └── xd.txt
+│   └── split_merge_methods.py
+├── configs
+├── DataNode1
+│   ├── database_datanode
+│   │   └── DB_DataNode.json
+│   ├── datanode.py
+│   ├── datanodes_info
+│   │   └── datanodes_registry.json
+│   ├── gestor_archivos.py
+│   ├── __pycache__
+│   │   └── gestor_archivos.cpython-312.pyc
+│   └── resources
+│       ├── follower
+│       └── leader
+├── DataNode2
+│   ├── database_datanode
+│   │   └── DB_DataNode.json
+│   ├── datanode.py
+│   ├── datanodes_info
+│   │   └── datanodes_registry.json
+│   ├── gestor_archivos.py
+│   ├── __pycache__
+│   │   └── gestor_archivos.cpython-312.pyc
+│   └── resources
+│       ├── follower
+│       └── leader
+├── DataNode3
+│   ├── database_datanode
+│   │   └── DB_DataNode.json
+│   ├── datanode.py
+│   ├── datanodes_info
+│   │   └── datanodes_registry.json
+│   ├── gestor_archivos.py
+│   ├── __pycache__
+│   │   └── gestor_archivos.cpython-312.pyc
+│   └── resources
+│       ├── follower
+│       └── leader
+├── ent_virtual
+│   ├── ...
+│   └── ...
+├── importante.txt
+├── NameNode1
+│   ├── autentication.py
+│   ├── database_namenode
+│   │   ├── active_datanodes.json
+│   │   ├── DB_NameNode.json
+│   │   └── localization_folder.json
+│   ├── datanodes
+│   │   └── datanodes_registry.json
+│   ├── heartbeats.py
+│   ├── json_manager.py
+│   ├── namenode.py
+│   ├── __pycache__
+│   │   ├── autentication.cpython-312.pyc
+│   │   ├── auth.cpython-312.pyc
+│   │   ├── heartbeats.cpython-312.pyc
+│   │   └── json_manager.cpython-312.pyc
+│   └── users
+│       ├── logged_users.json
+│       └── registered_users.json
+├── protos
+│   ├── hdfs_pb2_grpc.py
+│   ├── hdfs_pb2.py
+│   ├── hdfs_pb2.pyi
+│   ├── hdfs.proto
+│   └── __pycache__
+│       ├── hdfs_pb2.cpython-312.pyc
+│       └── hdfs_pb2_grpc.cpython-312.pyc
+├── README.md
+└── requirements.txt
+
+

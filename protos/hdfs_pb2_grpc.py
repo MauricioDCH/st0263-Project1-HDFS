@@ -90,6 +90,11 @@ class FullServicesStub(object):
                 request_serializer=protos_dot_hdfs__pb2.PipeLineDataNodeRequest.SerializeToString,
                 response_deserializer=protos_dot_hdfs__pb2.PipeLineDataNodeResponse.FromString,
                 _registered_method=True)
+        self.DeleteFileNameNodeDataNode = channel.unary_unary(
+                '/hdfs.FullServices/DeleteFileNameNodeDataNode',
+                request_serializer=protos_dot_hdfs__pb2.DeleteFileDataNodeRequest.SerializeToString,
+                response_deserializer=protos_dot_hdfs__pb2.DeleteFileNameNodeResponse.FromString,
+                _registered_method=True)
 
 
 class FullServicesServicer(object):
@@ -162,6 +167,12 @@ class FullServicesServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def DeleteFileNameNodeDataNode(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_FullServicesServicer_to_server(servicer, server):
     rpc_method_handlers = {
@@ -219,6 +230,11 @@ def add_FullServicesServicer_to_server(servicer, server):
                     servicer.PipeLineDataNodeResponseDataNodeRequest,
                     request_deserializer=protos_dot_hdfs__pb2.PipeLineDataNodeRequest.FromString,
                     response_serializer=protos_dot_hdfs__pb2.PipeLineDataNodeResponse.SerializeToString,
+            ),
+            'DeleteFileNameNodeDataNode': grpc.unary_unary_rpc_method_handler(
+                    servicer.DeleteFileNameNodeDataNode,
+                    request_deserializer=protos_dot_hdfs__pb2.DeleteFileDataNodeRequest.FromString,
+                    response_serializer=protos_dot_hdfs__pb2.DeleteFileNameNodeResponse.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -519,6 +535,33 @@ class FullServices(object):
             '/hdfs.FullServices/PipeLineDataNodeResponseDataNodeRequest',
             protos_dot_hdfs__pb2.PipeLineDataNodeRequest.SerializeToString,
             protos_dot_hdfs__pb2.PipeLineDataNodeResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def DeleteFileNameNodeDataNode(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/hdfs.FullServices/DeleteFileNameNodeDataNode',
+            protos_dot_hdfs__pb2.DeleteFileDataNodeRequest.SerializeToString,
+            protos_dot_hdfs__pb2.DeleteFileNameNodeResponse.FromString,
             options,
             channel_credentials,
             insecure,

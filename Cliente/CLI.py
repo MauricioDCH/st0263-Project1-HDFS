@@ -2,28 +2,24 @@ import os
 import requests
 import shutil
 import grpc
-from grpc_client import Grpc_client, FileSystemClient
-from Split_merge_methods import merge_file
+from grpc_client import FileSystemClient
+from Cliente.split_merge_methods import merge_file
 from dotenv import load_dotenv
 load_dotenv(dotenv_path="./configs/.env.client")  # Para configuración del cliente
 load_dotenv(dotenv_path="./configs/.env.datanode")  # Para configuración de DataNode
 load_dotenv(dotenv_path="./configs/.env.namenode")  # Para configuración de NameNode
 
-
 # Obtener las variables de entorno
 client_ip = os.getenv("CLIENT_IP")
 client_port = int(os.getenv("CLIENT_PORT"))
 uploadable_files = os.getenv("UPLOAD_DIR")
+downloadable_files = os.getenv("DOWNLOAD_DIR")
 
-datanode_ip = os.getenv("DATANODE_IP")
-datanode_port = int(os.getenv("DATANODE_PORT"))
+datanode_ip = os.getenv("DATANODE_IP_1")
+datanode_port = int(os.getenv("DATANODE_PORT_1"))
 
-namenode_ip = os.getenv("NAMENODE_IP")
-namenode_port = int(os.getenv("NAMENODE_PORT"))  # Asegúrate de que sea int si es necesario
-
-
-
-
+namenode_ip = os.getenv("NAMENODE_IP_1")
+namenode_port = int(os.getenv("NAMENODE_PORT_1"))  # Asegúrate de que sea int si es necesario
 
 class CLI:
     def __init__(self):
@@ -73,8 +69,8 @@ class CLI:
 
         client_ip = os.getenv("CLIENT_IP")
         client_port = int(os.getenv("CLIENT_PORT"))
-        namenode_ip = os.getenv("NAMENODE_IP")
-        namenode_port = int(os.getenv("NAMENODE_PORT"))  # Asegúrate de que sea int si es necesario
+        namenode_ip = os.getenv("NAMENODE_IP_1")
+        namenode_port = int(os.getenv("NAMENODE_PORT_1"))  # Asegúrate de que sea int si es necesario
 
         return namenode_ip, namenode_port, client_ip, client_port
 
@@ -89,20 +85,22 @@ class CLI:
     def comando_help(self):
         """Función que muestra los comandos disponibles."""
         print("\nComandos disponibles:")
-        print(" - ls [nombre_carpeta]: Listar el contenido de una carpeta.")
-        print(" - cd [nombre_carpeta]: Cambiar a una carpeta dentro de la ruta actual.")
-        print(" - cd ..: Subir hasta al directorio base.")
-        print(" - mkdir [nombre_carpeta]: Crear una carpeta vacía.")
-        print(" - touch [nombre_archivo]: Crear un archivo vacío.")
-        print(" - nano [nombre_archivo]: Editar un archivo.")
-        print(" - cp [nombre_archivo_origen] [nombre_archivo_destino]: Copiar un archivo.")
-        print(" - mv [nombre_archivo_origen] [nombre_archivo_destino]: Mover un archivo.")
-        print(" - get [nombre_archivo]: Descargar un archivo.")
-        print(" - put [nombre_archivo]: Subir un archivo.")
-        print(" - rm [nombre_archivo]: Eliminar un archivo.")
-        print(" - rm -r [nombre_carpeta]: Eliminar una carpeta y su contenido.")
-        print(" - clear: Limpiar la consola.")
-        print(" - exit: Salir del programa.\n")
+        print(" - ls [nombre_carpeta]: Listar el contenido de una carpeta de manera local.")
+        print(" - cd [nombre_carpeta]: Cambiar a una carpeta dentro de la ruta actual de manera local.")
+        print(" - cd ..: Subir hasta al directorio base de manera local.")
+        print(" - mkdir [nombre_carpeta]: Crear una carpeta vacía de manera local.")
+        print(" - touch [nombre_archivo]: Crear un archivo vacío de manera local.")
+        print(" - nano [nombre_archivo]: Editar un archivo de manera local.")
+        print(" - cp [nombre_archivo_origen] [nombre_archivo_destino]: Copiar un archivo de manera local.")
+        print(" - mv [nombre_archivo_origen] [nombre_archivo_destino]: Mover un archivo de manera local.")
+        print(" - get [nombre_archivo]: Descargar un archivo en el sistema HDFS.")
+        print(" - put [nombre_archivo]: Subir un archivo en el sistema HDFS.")
+        print(" - read [nombre_archivo]: Leer un archivo en el sistema HDFS.")
+        print(" - delete [nombre_archivo]: Eliminar un archivo en el sistema HDFS.")
+        print(" - rm [nombre_archivo]: Eliminar un archivo de manera local.")
+        print(" - rm -r [nombre_carpeta]: Eliminar una carpeta y su contenido de manera local.")
+        print(" - clear: Limpiar la consola de manera local.")
+        print(" - exit: Salir del programa de manera local.\n")
 
     def comando_clear(self):
         """Función que limpia la consola."""
@@ -333,7 +331,7 @@ class CLI:
 
 
 
-
+    """
     def comando_get(self, username, comando):
         if len(comando) > 1:
             nombre_archivo = comando[1]
@@ -343,7 +341,6 @@ class CLI:
 
                 nombre_usuario = username
                 respuesta_localizacion = client.locate_file(nombre_archivo, nombre_usuario)
-
                 if 'url_data_node_seguidor' in respuesta_localizacion and respuesta_localizacion['url_data_node_seguidor']:
                     first_data_node_url_seguidor = respuesta_localizacion['url_data_node_seguidor'][0]
                     respuesta_descarga = client.download_file(first_data_node_url_seguidor, nombre_archivo, nombre_usuario, respuesta_localizacion)
@@ -361,8 +358,41 @@ class CLI:
                 print(f"Error al descargar el archivo: {e}")
         else:
             print("Error: Debes proporcionar el nombre del archivo a descargar.")
-
+    """
     
+    
+    def comando_get(self, username, comando):
+        ruta_actual = os.path.abspath(downloadable_files)  # La ruta base que no se puede sobrepasar
+        ruta_archivo = os.path.join(ruta_actual, comando[1])
+        if len(comando) > 1:
+            nombre_archivo = comando[1]
+            try:
+                configs = self.cargar_configuraciones()
+                client = self.crear_cliente(configs[0], configs[1], configs[2], configs[3])
+
+                nombre_usuario = username
+                respuesta_localizacion = client.locate_file(nombre_archivo, nombre_usuario)
+                if 'url_data_node_seguidor' in respuesta_localizacion and respuesta_localizacion['url_data_node_seguidor']:
+                    first_data_node_url_seguidor = respuesta_localizacion['url_data_node_seguidor'][0]
+                    respuesta_descarga = client.download_file(first_data_node_url_seguidor, nombre_archivo, nombre_usuario, respuesta_localizacion)
+                    if respuesta_descarga['estado_exitoso']:
+                        # Abrir el archivo en modo escritura (sobrescribiendo si ya existe)
+                        for i in range(len(respuesta_descarga["contenido_bloques_seguidor"])):
+                            with open(ruta_archivo, 'wb') as file:
+                                file.write(respuesta_descarga["contenido_bloques_seguidor"][i])
+                        print(f"\nArchivo '{nombre_archivo}' descargado y sobrescrito con éxito.")
+                    else:
+                        print(f"\nError al descargar el archivo '{nombre_archivo}'.")
+                else:
+                    print("Error: No se encontró la URL del DataNode seguidor.")
+            
+            except grpc.RpcError as e:
+                print(f"Error RPC: {e.code()} - {e.details()}")
+            except Exception as e:
+                print(f"Error al descargar el archivo: {e}")
+        else:
+            print("Error: Debes proporcionar el nombre del archivo a descargar.")
+
     
     
     
@@ -413,7 +443,6 @@ class CLI:
     
     
     def comando_read(self, username, comando):
-        ruta_actual = os.path.abspath(uploadable_files)  # La ruta base que no se puede sobrepasar
         if len(comando) > 1:
             nombre_archivo = comando[1]
             try:

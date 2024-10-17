@@ -20,23 +20,23 @@ load_dotenv(dotenv_path="./configs/.env.datanode")  # Para configuración de Dat
 namenode_ip = os.getenv("NAMENODE_IP_1")
 namenode_port = os.getenv("NAMENODE_PORT_1")
 
-datanode_ip = os.getenv("DATANODE_IP_1")
-datanode_port = int(os.getenv("DATANODE_PORT_1"))
-follower_resources = os.getenv("FOLLOWER_RESOURCES_1")
-database_path = os.getenv("DATABASE_PATH_DATANODE_1")
-datanode_register = os.getenv("DATANODES_REGISTRY_1")
+datanode_ip = os.getenv("DATANODE_IP_3")
+datanode_port = int(os.getenv("DATANODE_PORT_3"))
+follower_resources = os.getenv("FOLLOWER_RESOURCES_3")
+database_path = os.getenv("DATABASE_PATH_DATANODE_3")
+datanode_register = os.getenv("DATANODES_REGISTRY_3")
+
+datanode_ip_1 = os.getenv("DATANODE_IP_1")
+datanode_port_1 = os.getenv("DATANODE_PORT_1")
 
 datanode_ip_2 = os.getenv("DATANODE_IP_2")
 datanode_port_2 = os.getenv("DATANODE_PORT_2")
 
-datanode_ip_3 = os.getenv("DATANODE_IP_3")
-datanode_port_3 = os.getenv("DATANODE_PORT_3")
-
 
 def generar_y_llenar_archivo_DB():
     # Ejemplo de uso
-    carpeta_base = os.getenv("FOLDER_RESOURCES_1")
-    archivo_salida = os.getenv("DATABASE_PATH_DATANODE_1")
+    carpeta_base = os.getenv("FOLDER_RESOURCES_3")
+    archivo_salida = os.getenv("DATABASE_PATH_DATANODE_3")
     gestor = GestorArchivos(carpeta_base, archivo_salida)
     # Guardar los metadatos en JSON inicialmente
     gestor.guardar_metadata_en_json()
@@ -45,7 +45,7 @@ def generar_y_llenar_archivo_DB():
 class FullServicesServicer(pb2_grpc.FullServicesServicer):
     def _init_(self):
         self.id_data_node = None
-        self.ruta_datanodes_registry = os.getenv("DATANODES_REGISTRY_1")
+        self.ruta_datanodes_registry = os.getenv("DATANODES_REGISTRY_3")
         self.metadata_file = os.path.join('database_datanode', 'DB_DataNode.json')
 
         if not os.path.exists(self.metadata_file):
@@ -122,7 +122,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
 
     def UploadFileDataNodeClient(self, request, context):
         response = pb2.UploadFileDataNodeResponse()
-        resources_path = os.getenv("LEADER_RESOURCES_1")
+        resources_path = os.getenv("LEADER_RESOURCES_3")
         try:
             dir_name_leader = os.path.join(resources_path, request.nombre_archivo)
             os.makedirs(dir_name_leader, exist_ok=True)
@@ -147,7 +147,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                 
                 blocks_follower.append(bloque)
 
-            self.connectToDataNode(datanode_ip_2, datanode_port_2, blocks_leader)
+            self.connectToDataNode(datanode_ip_1, datanode_port_1, blocks_leader)
 
             response.estado_exitoso = True
         except Exception as e:
@@ -201,7 +201,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
         try:
             # Construir la ruta del archivo a descargar
             file_paths = []
-            ruta_carpeta_seguidor = os.getenv("FOLLOWER_RESOURCES_1")
+            ruta_carpeta_seguidor = os.getenv("FOLLOWER_RESOURCES_3")
             for ruta in lista_rutas:
                 file_path = os.path.join(ruta_carpeta_seguidor, ruta)
                 file_paths.append(file_path)
@@ -254,8 +254,8 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
 
     def DeleteFileDataNodeClient(self, request, context):
         response = pb2.DeleteFileDataNodeResponse()
-        leader_resources = os.getenv("LEADER_RESOURCES_1")
-        follower_resources = os.getenv("FOLLOWER_RESOURCES_1")
+        leader_resources = os.getenv("LEADER_RESOURCES_3")
+        follower_resources = os.getenv("FOLLOWER_RESOURCES_3")
 
         print(f'Nombre del archivo: {request.nombre_archivo}')
         print(f'Nombre del usuario: {request.nombre_usuario}')
@@ -319,7 +319,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
         try:
             # Construir la ruta del archivo a descargar
             file_paths = []
-            ruta_carpeta_seguidor = os.getenv("FOLLOWER_RESOURCES_1")
+            ruta_carpeta_seguidor = os.getenv("FOLLOWER_RESOURCES_3")
             for ruta in lista_rutas:
                 file_path = os.path.join(ruta_carpeta_seguidor, ruta)
                 file_paths.append(file_path)
@@ -451,7 +451,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
 
     # Función para enviar el BlockReport al NameNode usando gRPC
     def enviar_block_report(self, servidor_namenode):
-        ruta_json = os.getenv("DATABASE_PATH_DATANODE_1")
+        ruta_json = os.getenv("DATABASE_PATH_DATANODE_3")
         
         print(f"Obteniendo los datos del DataNode desde '{ruta_json}'...")
         
@@ -517,7 +517,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                 print(f"Error: No se pudo eliminar el archivo '{nombre_archivo}'.")
     
     def heartBeatDataNodeRequest(self, servidor_namenode):
-        datanode_register = os.getenv("DATANODES_REGISTRY_1")
+        datanode_register = os.getenv("DATANODES_REGISTRY_3")
         print(f'Ingreso a la función heartBeatDataNodeRequest...')
         ultimo_id = obtener_ultimo_id_datanode(datanode_register)
         with grpc.insecure_channel(servidor_namenode) as channel:

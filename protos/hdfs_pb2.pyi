@@ -138,16 +138,18 @@ class HeartBeatNameNodeResponse(_message.Message):
     def __init__(self, estado_exitoso: bool = ..., timestrap: _Optional[str] = ...) -> None: ...
 
 class DownloadFileClientRequest(_message.Message):
-    __slots__ = ("nombre_archivo", "nombre_usuario", "url_cliente", "rutas_bloques_seguidor")
+    __slots__ = ("nombre_archivo", "nombre_usuario", "url_cliente", "lista_id_data_node_seguidor", "rutas_bloques_seguidor")
     NOMBRE_ARCHIVO_FIELD_NUMBER: _ClassVar[int]
     NOMBRE_USUARIO_FIELD_NUMBER: _ClassVar[int]
     URL_CLIENTE_FIELD_NUMBER: _ClassVar[int]
+    LISTA_ID_DATA_NODE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     RUTAS_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     nombre_archivo: str
     nombre_usuario: str
     url_cliente: str
+    lista_id_data_node_seguidor: _containers.RepeatedScalarFieldContainer[int]
     rutas_bloques_seguidor: _containers.RepeatedScalarFieldContainer[str]
-    def __init__(self, nombre_archivo: _Optional[str] = ..., nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ..., rutas_bloques_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
+    def __init__(self, nombre_archivo: _Optional[str] = ..., nombre_usuario: _Optional[str] = ..., url_cliente: _Optional[str] = ..., lista_id_data_node_seguidor: _Optional[_Iterable[int]] = ..., rutas_bloques_seguidor: _Optional[_Iterable[str]] = ...) -> None: ...
 
 class DownloadFileDataNodeResponse(_message.Message):
     __slots__ = ("lista_contenido_bloques_seguidor", "estado_exitoso")
@@ -268,3 +270,15 @@ class PipeLineDataNodeResponse(_message.Message):
     tamano_bloque_lider: str
     tamano_bloque_seguidor: str
     def __init__(self, id_bloque_lider: _Optional[int] = ..., id_bloque_seguidor: _Optional[int] = ..., estado_exitoso: bool = ..., tamano_bloque_lider: _Optional[str] = ..., tamano_bloque_seguidor: _Optional[str] = ...) -> None: ...
+
+class DeleteFileDataNodeRequest(_message.Message):
+    __slots__ = ("nombre_archivo",)
+    NOMBRE_ARCHIVO_FIELD_NUMBER: _ClassVar[int]
+    nombre_archivo: str
+    def __init__(self, nombre_archivo: _Optional[str] = ...) -> None: ...
+
+class DeleteFileNameNodeResponse(_message.Message):
+    __slots__ = ("estado_exitoso",)
+    ESTADO_EXITOSO_FIELD_NUMBER: _ClassVar[int]
+    estado_exitoso: bool
+    def __init__(self, estado_exitoso: bool = ...) -> None: ...

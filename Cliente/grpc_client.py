@@ -2,7 +2,7 @@ import grpc
 import sys
 import os
 from dotenv import load_dotenv
-from Split_merge_methods import split_file, merge_file
+from Cliente.split_merge_methods import split_file, merge_file
 
 # Añade la ruta a los módulos generados por gRPC del archivo .proto
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -19,11 +19,11 @@ load_dotenv(dotenv_path="./configs/.env.namenode")  # Para configuración de Nam
 client_ip = os.getenv("CLIENT_IP")
 client_port = int(os.getenv("CLIENT_PORT"))
 
-datanode_ip = os.getenv("DATANODE_IP")
-datanode_port = int(os.getenv("DATANODE_PORT"))
+datanode_ip = os.getenv("DATANODE_IP_1")
+datanode_port = int(os.getenv("DATANODE_PORT_1"))
 
-namenode_ip = os.getenv("NAMENODE_IP")
-namenode_port = int(os.getenv("NAMENODE_PORT"))  # Asegúrate de que sea int si es necesario
+namenode_ip = os.getenv("NAMENODE_IP_1")
+namenode_port = int(os.getenv("NAMENODE_PORT_1"))  # Asegúrate de que sea int si es necesario
 
 class Grpc_client:
     def __init__(self, name_node_url=None, data_node_url=None):
@@ -153,7 +153,7 @@ class Grpc_client:
 
 
         
-    def DownloadFileDataNodeClient(self, nombre_archivo, nombre_usuario, url_cliente, rutas_bloques_seguidor):
+    def DownloadFileDataNodeClient(self, nombre_archivo, nombre_usuario, url_cliente, lista_id_data_node_seguidor, rutas_bloques_seguidor):
         """
         Método para descargar un archivo desde los DataNodes.
         """
@@ -161,6 +161,7 @@ class Grpc_client:
             nombre_archivo=nombre_archivo,
             nombre_usuario=nombre_usuario,
             url_cliente=url_cliente,
+            lista_id_data_node_seguidor=lista_id_data_node_seguidor,
             rutas_bloques_seguidor=rutas_bloques_seguidor
         )
         # Enviar la solicitud al DataNode para la descarga
@@ -281,6 +282,7 @@ class FileSystemClient:
             nombre_archivo=nombre_archivo,
             nombre_usuario=nombre_usuario,
             url_cliente=f"{self.client_ip}:{self.client_port}",
+            lista_id_data_node_seguidor = response_file_location['id_data_node_seguidor'],
             rutas_bloques_seguidor=response_file_location['rutas_bloques_seguidor']
         )
         merge_file(nombre_archivo, response["contenido_bloques_seguidor"])

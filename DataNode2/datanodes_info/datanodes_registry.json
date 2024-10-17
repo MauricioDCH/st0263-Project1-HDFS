@@ -361,14 +361,19 @@
             "data_node_port": 6000
         },
         {
-            "id_data_node": 78,
+            "id_data_node": 73,
             "data_node_ip": "127.0.0.1",
-            "data_node_port": 6000
+            "data_node_port": 6001
         },
         {
-            "id_data_node": 79,
+            "id_data_node": 77,
             "data_node_ip": "127.0.0.1",
-            "data_node_port": 6000
+            "data_node_port": 6001
+        },
+        {
+            "id_data_node": 80,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
         }
     ]
 }

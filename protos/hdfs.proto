@@ -114,7 +114,8 @@ message DownloadFileClientRequest {
     string nombre_archivo = 1;  // Nombre del archivo a descargar
     string nombre_usuario = 2;   // Identificación del usuario
     string url_cliente = 3;      // Dirección IP y puerto del cliente
-    repeated string rutas_bloques_seguidor = 4; // Rutas de bloques del DataNode
+    repeated int32 lista_id_data_node_seguidor = 4; // IDs de los DataNodes donde se replicará este bloque
+    repeated string rutas_bloques_seguidor = 5; // Rutas de bloques del DataNode
 }
 
 message DownloadFileDataNodeResponse {
@@ -193,6 +194,15 @@ message PipeLineDataNodeResponse {
     string tamano_bloque_seguidor = 5; // Tamano del bloque replicado almacenado
 }
 
+// 12. Borrar el archivo de localization_folder.json en el NameNode
+message DeleteFileDataNodeRequest{
+    string nombre_archivo = 1;        // Nombre del archivo
+}
+
+message DeleteFileNameNodeResponse{
+    bool estado_exitoso = 1; // Estado de la operación de eliminación de archivo
+}
+
 
 // Definición del servicio FullServices
 service FullServices {
@@ -207,4 +217,5 @@ service FullServices {
     rpc DeleteFileDataNodeClient(DeleteFileClientRequest) returns (DeleteFileDataNodeResponse);
     rpc ReadFileDataNodeClient(ReadFileClientRequest) returns (ReadFileDataNodeResponse);
     rpc PipeLineDataNodeResponseDataNodeRequest(PipeLineDataNodeRequest) returns (PipeLineDataNodeResponse);
+    rpc DeleteFileNameNodeDataNode(DeleteFileDataNodeRequest) returns (DeleteFileNameNodeResponse);
 }

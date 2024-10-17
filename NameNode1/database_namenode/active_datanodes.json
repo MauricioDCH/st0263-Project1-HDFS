@@ -1,0 +1,9 @@
+{
+    "data_nodes_activos": [
+        {
+            "id": 80,
+            "url": "127.0.0.1:6001",
+            "ultimo_heartbeat": "2024-10-17 02:11:58"
+        }
+    ]
+}

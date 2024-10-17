@@ -23,6 +23,7 @@ class GestorArchivos:
                     "tipo": "archivo",
                     "tamano-bytes": info.st_size,  # Tamaño en bytes
                     "fecha_modificacion": time.ctime(info.st_mtime),  # Fecha de modificación
+                    "usuario": os.getlogin(),  # Usuario que ejecuta el script
                 })
 
             # Obtener metadatos si es un directorio
@@ -34,6 +35,7 @@ class GestorArchivos:
                     "tipo": "carpeta",
                     "tamano-bytes": None,  # Directorios no tienen tamaño en bytes
                     "fecha_modificacion": time.ctime(info.st_mtime),  # Fecha de modificación
+                    "usuario": os.getlogin(),  # Usuario que ejecuta el script
                     "cantidad_archivos": cantidad_archivos,  # Contar elementos dentro de la carpeta
                     "subcarpetas-archivos-internos": self.obtener_metadata_archivos(ruta_completa)  # Llamada recursiva para subcarpetas
                 })
@@ -93,3 +95,20 @@ class GestorArchivos:
             return f"{resultado}"
         else:
             return f""
+
+# Función para cargar el archivo JSON y obtener el último id_data_node
+def obtener_ultimo_id_datanode(ruta_json):
+    # Cargar el archivo JSON
+    with open(ruta_json, 'r') as archivo:
+        datos = json.load(archivo)
+    
+    # Acceder a la lista de DataNodes
+    lista_datanodes = datos.get("data_nodes", [])
+    
+    if lista_datanodes:
+        # Obtener el último DataNode de la lista
+        ultimo_datanode = lista_datanodes[-1]
+        id_data_node = ultimo_datanode.get("id_data_node")
+        return id_data_node
+    else:
+        return None
