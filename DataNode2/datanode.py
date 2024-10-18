@@ -373,6 +373,60 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
 
         return response
 
+    def PipeLineForDeleteDataNodeResponseDataNodeRequest(self, request, context):
+        response = pb2.PipeLineForDeleteDataNodeResponse()
+        """
+        string nombre_archivo = 1; // Nombre del archivo
+        """
+        leader_resources = os.getenv("LEADER_RESOURCES_2")
+        follower_resources = os.getenv("FOLLOWER_RESOURCES_2")
+        
+        print(f'Ingreso a la función PipeLineForDeleteDataNodeResponseDataNodeRequest con el bloque...')
+        
+        print(f'Nombre del archivo: {request.nombre_archivo}')
+        
+        try:
+            dir_name_leader = os.path.join(leader_resources, request.nombre_archivo)
+            dir_name_follower = os.path.join(follower_resources, request.nombre_archivo)
+            print(f'Directorio líder: {dir_name_leader}')
+            print(f'Directorio seguidor: {dir_name_follower}')
+            
+            # Si el directorio existe, imprimir que existe y lo borra. Si no, imprimir que no existe
+            if os.path.exists(dir_name_leader):
+                print(f'El directorio \'{request.nombre_archivo}\' existe en líderes.')
+                shutil.rmtree(dir_name_leader)
+                print(f'El directorio \'{request.nombre_archivo}\' ha sido eliminado en líderes.')
+            else:
+                print(f'El directorio \'{request.nombre_archivo}\' no existe en líderes.')
+            
+            # Si el directorio existe, imprimir que existe y lo borra. Si no, imprimir que no existe
+            if os.path.exists(dir_name_follower):
+                print(f'El directorio \'{request.nombre_archivo}\' existe en seguidores.')
+                shutil.rmtree(dir_name_follower)
+                print(f'El directorio \'{request.nombre_archivo}\' ha sido eliminado en seguidores.')                
+            else:
+                print(f'El directorio \'{request.nombre_archivo}\' existe en seguidores')
+                    # Enviar petición a NameNode para eliminar el archivo en el archivo localization_folder.json
+            self.delete_file(request.nombre_archivo)
+            
+            if len(request.lista_id_bloque_lider) >= 1 or len(request.lista_id_bloque_seguidor) >= 1:
+                pipeline_request = pb2.PipeLineForDeleteDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo
+                pipeline_request.lista_id_bloque_lider.extend(request.lista_id_bloque_lider)
+                pipeline_request.lista_id_bloque_seguidor.extend(request.lista_id_bloque_seguidor)
+                
+                self.connectToDataNodeForDelete(datanode_ip_3, datanode_port_3, pipeline_request)
+            response.estado_exitoso = True
+        except Exception as e:
+            response.estado_exitoso = False
+            print(f"Error eliminando archivos: {e}")
+
+        return response
+
+
+
+
+
     def DeleteFileDataNodeClient(self, request, context):
         response = pb2.DeleteFileDataNodeResponse()
         leader_resources = os.getenv("LEADER_RESOURCES_2")
@@ -404,10 +458,17 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                 print(f'El directorio \'{request.nombre_archivo}\' ha sido eliminado en seguidores.')                
             else:
                 print(f'El directorio \'{request.nombre_archivo}\' existe en seguidores')
-            
+                        
             # Enviar petición a NameNode para eliminar el archivo en el archivo localization_folder.json
             self.delete_file(request.nombre_archivo)
             
+            # Enviar petición a NameNode para eliminar el archivo en el archivo localization_folder.json
+            self.delete_file(request.nombre_archivo)
+            if len(request.lista_id_bloque_lider) >= 1 or len(request.lista_id_bloque_seguidor) >= 1:
+                pipeline_request = pb2.PipeLineForDeleteDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo
+                
+                self.connectToDataNodeForDelete(datanode_ip_3, datanode_port_3, pipeline_request)
             # Enviar la respuesta exitosa
             response.estado_exitoso = True
         except Exception as e:
@@ -515,43 +576,6 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
             print(f"Error inesperado: {e}")
 
         return response
-
-
-
-
-
-        """
-            # Limitar el número de bloques a procesar para evitar sobrepasar el tamaño de la lista
-            num_bloques = len(lista_contenido_bloques_seguidor) - 1
-
-            # Imprimir los primeros 40 bytes de cada bloque sin repetir ni exceder el número de bloques
-            for idx, bloque in enumerate(lista_contenido_bloques_seguidor[:num_bloques]):  # Limitar la iteración
-                print(f'Primeros 40 bytes del bloque {idx}: {bloque[:40]}')
-            
-            # Si la lista de bloques es mayor a 0, se retornan la lista de contenido de bloques y el estado exitoso
-            if len(lista_contenido_bloques_seguidor) > 0:
-                # Debes agregar cada bloque manualmente a la lista `repeated bytes` en el response
-                for bloque in lista_contenido_bloques_seguidor:
-                    response.lista_contenido_bloques_seguidor.append(bloque)  # Agregar cada bloque al repeated
-                
-                response.estado_exitoso = True
-            else:
-                response.estado_exitoso = False
-
-        except FileNotFoundError as e:
-            context.set_code(grpc.StatusCode.NOT_FOUND)
-            context.set_details(str(e))
-            response.estado_exitoso = False
-            print(f"Error al descargar el archivo: {e}")
-        except Exception as e:
-            context.set_code(grpc.StatusCode.UNKNOWN)
-            context.set_details("Error inesperado en la aplicación.")
-            response.estado_exitoso = False
-            print(f"Error inesperado: {e}")
-
-        return response
-        """
-
 
     # ------------------------------------------------------------------------------------------------------------------------------------------------------------
     # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -701,7 +725,25 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
             except Exception as e:
                 print(f'Error al conectar con DataNode {datanode_ip}:{datanode_port}: {e}')
 
+    def connectToDataNodeForDelete(self, datanode_ip, datanode_port, pipeline_request):
+            try:
+                with grpc.insecure_channel(f'{datanode_ip}:{datanode_port}') as channel:
+                    print("aaaaaaaaaa")
+                    stub = pb2_grpc.FullServicesStub(channel) 
 
+                    response = stub.PipeLineForDeleteDataNodeResponseDataNodeRequest(pipeline_request)
+                    print("xxxxxxxxxxxxxxxxxxxx")
+
+                    if response.estado_exitoso:
+                        print(f'Conexión exitosa con DataNode en {datanode_ip}:{datanode_port}')
+                        return response
+                    else:
+                        print(f'Error en la conexión hacia DataNode en {datanode_ip}:{datanode_port}')
+                        return None
+                
+            except Exception as e:
+                print(f'Error al conectar con DataNode {datanode_ip}:{datanode_port}: {e}')
+              
 
     # Función para eliminar un archivo del NameNode
     def delete_file(self, nombre_archivo):

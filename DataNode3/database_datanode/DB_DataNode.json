@@ -3,54 +3,18 @@
         "nombre": "follower",
         "tipo": "carpeta",
         "tamano-bytes": null,
-        "fecha_modificacion": "Fri Oct 18 04:30:03 2024",
+        "fecha_modificacion": "Fri Oct 18 13:26:50 2024",
         "usuario": "mdch",
-        "cantidad_archivos": 1,
-        "subcarpetas-archivos-internos": [
-            {
-                "nombre": "a.txt",
-                "tipo": "carpeta",
-                "tamano-bytes": null,
-                "fecha_modificacion": "Fri Oct 18 04:30:03 2024",
-                "usuario": "mdch",
-                "cantidad_archivos": 1,
-                "subcarpetas-archivos-internos": [
-                    {
-                        "nombre": "bloque_3.bin",
-                        "tipo": "archivo",
-                        "tamano-bytes": 16,
-                        "fecha_modificacion": "Fri Oct 18 04:30:03 2024",
-                        "usuario": "mdch"
-                    }
-                ]
-            }
-        ]
+        "cantidad_archivos": 0,
+        "subcarpetas-archivos-internos": []
     },
     {
         "nombre": "leader",
         "tipo": "carpeta",
         "tamano-bytes": null,
-        "fecha_modificacion": "Fri Oct 18 04:30:03 2024",
+        "fecha_modificacion": "Fri Oct 18 13:26:50 2024",
         "usuario": "mdch",
-        "cantidad_archivos": 1,
-        "subcarpetas-archivos-internos": [
-            {
-                "nombre": "a.txt",
-                "tipo": "carpeta",
-                "tamano-bytes": null,
-                "fecha_modificacion": "Fri Oct 18 04:30:03 2024",
-                "usuario": "mdch",
-                "cantidad_archivos": 1,
-                "subcarpetas-archivos-internos": [
-                    {
-                        "nombre": "bloque_4.bin",
-                        "tipo": "archivo",
-                        "tamano-bytes": 17,
-                        "fecha_modificacion": "Fri Oct 18 04:30:03 2024",
-                        "usuario": "mdch"
-                    }
-                ]
-            }
-        ]
+        "cantidad_archivos": 0,
+        "subcarpetas-archivos-internos": []
     }
 ]

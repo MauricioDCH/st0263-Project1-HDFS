@@ -34,6 +34,26 @@
             "id_data_node": 29,
             "data_node_ip": "127.0.0.1",
             "data_node_port": 6001
+        },
+        {
+            "id_data_node": 38,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
+        },
+        {
+            "id_data_node": 41,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
+        },
+        {
+            "id_data_node": 44,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
+        },
+        {
+            "id_data_node": 47,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6001
         }
     ]
 }

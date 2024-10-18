@@ -192,6 +192,17 @@ message PipeLineForGetDataNodeResponse {
     bool estado_exitoso = 2; // Estado de la descarga
 }
 
+// 14. Solicitud para obtener la pipeline de DataNodes para el borrado de un archivo.
+message PipeLineForDeleteDataNodeRequest {
+    string nombre_archivo = 1; // Nombre del archivo
+    repeated int32 lista_id_bloque_lider = 2; // IDs de los bloques originales
+    repeated int32 lista_id_bloque_seguidor = 3; // IDs de los bloques replicados
+}
+
+message PipeLineForDeleteDataNodeResponse {
+    bool estado_exitoso = 1; // Estado de la descarga
+}
+
 // Definición del servicio FullServices
 service FullServices {
     rpc DataNodeDesignationNameNodeClient(DataNodeDesignationClientRequest) returns (DataNodeDesignationNameNodeResponse);
@@ -207,4 +218,5 @@ service FullServices {
     rpc PipeLineDataNodeResponseDataNodeRequest(PipeLineDataNodeRequest) returns (PipeLineDataNodeResponse);
     rpc DeleteFileNameNodeDataNode(DeleteFileDataNodeRequest) returns (DeleteFileNameNodeResponse);
     rpc PipeLineForGetDataNodeResponseDataNodeRequest(PipeLineForGetDataNodeRequest) returns (PipeLineForGetDataNodeResponse);
+    rpc PipeLineForDeleteDataNodeResponseDataNodeRequest(PipeLineForDeleteDataNodeRequest) returns (PipeLineForDeleteDataNodeResponse);
 }

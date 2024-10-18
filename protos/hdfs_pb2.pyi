@@ -294,3 +294,19 @@ class PipeLineForGetDataNodeResponse(_message.Message):
     lista_contenido_bloques_seguidor: _containers.RepeatedScalarFieldContainer[bytes]
     estado_exitoso: bool
     def __init__(self, lista_contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ..., estado_exitoso: bool = ...) -> None: ...
+
+class PipeLineForDeleteDataNodeRequest(_message.Message):
+    __slots__ = ("nombre_archivo", "lista_id_bloque_lider", "lista_id_bloque_seguidor")
+    NOMBRE_ARCHIVO_FIELD_NUMBER: _ClassVar[int]
+    LISTA_ID_BLOQUE_LIDER_FIELD_NUMBER: _ClassVar[int]
+    LISTA_ID_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
+    nombre_archivo: str
+    lista_id_bloque_lider: _containers.RepeatedScalarFieldContainer[int]
+    lista_id_bloque_seguidor: _containers.RepeatedScalarFieldContainer[int]
+    def __init__(self, nombre_archivo: _Optional[str] = ..., lista_id_bloque_lider: _Optional[_Iterable[int]] = ..., lista_id_bloque_seguidor: _Optional[_Iterable[int]] = ...) -> None: ...
+
+class PipeLineForDeleteDataNodeResponse(_message.Message):
+    __slots__ = ("estado_exitoso",)
+    ESTADO_EXITOSO_FIELD_NUMBER: _ClassVar[int]
+    estado_exitoso: bool
+    def __init__(self, estado_exitoso: bool = ...) -> None: ...
