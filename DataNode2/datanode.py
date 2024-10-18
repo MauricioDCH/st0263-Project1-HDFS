@@ -460,7 +460,67 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                     # Leer el contenido del archivo, agregarlo a la lista y envía el contenido al cliente
                     with open(file_path, 'rb') as f:
                         lista_contenido_bloques_seguidor.append(f.read())
+
+
+            if len(lista_id_data_node_seguidor) >= 1:
+                pipeline_request = pb2.PipeLineForGetDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo
+                pipeline_request.lista_id_data_node_seguidor.extend(request.lista_id_data_node_seguidor)
+                pipeline_request.rutas_bloques_seguidor.extend(request.rutas_bloques_seguidor)
+                
+                print("\n\n\nContenido de la petición que se va a hacer a datanode siguiente...")
+                print(f'Nombre del archivo: {pipeline_request.nombre_archivo}')
+                print(f'Lista de ID de DataNode seguidor: {pipeline_request.lista_id_data_node_seguidor}')
+                print(f'Rutas de bloques seguidor: {pipeline_request.rutas_bloques_seguidor}')
+                
+                dato = self.connectToDataNodeForDownload(datanode_ip_3, datanode_port_3, pipeline_request)
+                print(dato)
+                response.lista_contenido_bloques_seguidor.extend(dato.lista_contenido_bloques_seguidor)
+                # Pausar el programa por 5 segundos
+                response.estado_exitoso = True
             
+            print(f'Easdasdasdasd Este es la lista de contenido de bloques seguidor: {response.lista_contenido_bloques_seguidor}')
+            # Limitar el número de bloques a procesar para evitar sobrepasar el tamaño de la lista
+            num_bloques = len(response.lista_contenido_bloques_seguidor) - 1
+
+            # Imprimir los primeros 40 bytes de cada bloque sin repetir ni exceder el número de bloques
+            for idx, bloque in enumerate(response.lista_contenido_bloques_seguidor[:num_bloques + 1]):  # Limitar la iteración
+                print(f'Primeros 40 bytes del bloque {idx}: {bloque[:40]}')
+            
+            # Si la lista de bloques es mayor a 0, se retornan la lista de contenido de bloques y el estado exitoso
+            if len(response.lista_contenido_bloques_seguidor) > 0:
+                # Debes agregar cada bloque manualmente a la lista `repeated bytes` en el response
+                print("Holaa, ya voy aquí")
+                print(len(response.lista_contenido_bloques_seguidor))
+                print(response.lista_contenido_bloques_seguidor)
+                
+                for bloque in range(len(response.lista_contenido_bloques_seguidor)):
+                    print(f"Holaa, ya voy aquí", bloque)
+                    print(response.lista_contenido_bloques_seguidor[bloque])
+                    response.lista_contenido_bloques_seguidor[bloque]
+                
+                response.estado_exitoso = True
+            else:
+                response.estado_exitoso = False
+
+        except FileNotFoundError as e:
+            context.set_code(grpc.StatusCode.NOT_FOUND)
+            context.set_details(str(e))
+            response.estado_exitoso = False
+            print(f"Error al descargar el archivo: {e}")
+        except Exception as e:
+            context.set_code(grpc.StatusCode.UNKNOWN)
+            context.set_details("Error inesperado en la aplicación.")
+            response.estado_exitoso = False
+            print(f"Error inesperado: {e}")
+
+        return response
+
+
+
+
+
+        """
             # Limitar el número de bloques a procesar para evitar sobrepasar el tamaño de la lista
             num_bloques = len(lista_contenido_bloques_seguidor) - 1
 
@@ -490,6 +550,7 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
             print(f"Error inesperado: {e}")
 
         return response
+        """
 
 
     # ------------------------------------------------------------------------------------------------------------------------------------------------------------

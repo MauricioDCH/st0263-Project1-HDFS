@@ -3293,5 +3293,3108 @@
                 }
             }
         }
+    },
+    "22": {
+        "2024-10-18 05:27:54": {
+            "n_reporte": "2024-10-18 05:27:54",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "24": {
+        "2024-10-18 05:28:12": {
+            "n_reporte": "2024-10-18 05:28:12",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "25": {
+        "2024-10-18 05:29:12": {
+            "n_reporte": "2024-10-18 05:29:12",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:29:37": {
+            "n_reporte": "2024-10-18 05:29:37",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:30:02": {
+            "n_reporte": "2024-10-18 05:30:02",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "26": {
+        "2024-10-18 05:29:14": {
+            "n_reporte": "2024-10-18 05:29:14",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:29:39": {
+            "n_reporte": "2024-10-18 05:29:39",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:30:04": {
+            "n_reporte": "2024-10-18 05:30:04",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "27": {
+        "2024-10-18 05:29:17": {
+            "n_reporte": "2024-10-18 05:29:17",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:29:42": {
+            "n_reporte": "2024-10-18 05:29:42",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:30:07": {
+            "n_reporte": "2024-10-18 05:30:07",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "28": {
+        "2024-10-18 05:32:33": {
+            "n_reporte": "2024-10-18 05:32:33",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:32:58": {
+            "n_reporte": "2024-10-18 05:32:58",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "29": {
+        "2024-10-18 05:32:35": {
+            "n_reporte": "2024-10-18 05:32:35",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:33:00": {
+            "n_reporte": "2024-10-18 05:33:00",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:33:25": {
+            "n_reporte": "2024-10-18 05:33:25",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:33:50": {
+            "n_reporte": "2024-10-18 05:33:50",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:34:15": {
+            "n_reporte": "2024-10-18 05:34:15",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:34:40": {
+            "n_reporte": "2024-10-18 05:34:40",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:35:05": {
+            "n_reporte": "2024-10-18 05:35:05",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:35:30": {
+            "n_reporte": "2024-10-18 05:35:30",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:35:55": {
+            "n_reporte": "2024-10-18 05:35:55",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:36:20": {
+            "n_reporte": "2024-10-18 05:36:20",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:36:45": {
+            "n_reporte": "2024-10-18 05:36:45",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:37:10": {
+            "n_reporte": "2024-10-18 05:37:10",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:37:35": {
+            "n_reporte": "2024-10-18 05:37:35",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:00": {
+            "n_reporte": "2024-10-18 05:38:00",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:25": {
+            "n_reporte": "2024-10-18 05:38:25",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:50": {
+            "n_reporte": "2024-10-18 05:38:50",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:39:15": {
+            "n_reporte": "2024-10-18 05:39:15",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:39:40": {
+            "n_reporte": "2024-10-18 05:39:40",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:40:05": {
+            "n_reporte": "2024-10-18 05:40:05",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:40:30": {
+            "n_reporte": "2024-10-18 05:40:30",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:40:55": {
+            "n_reporte": "2024-10-18 05:40:55",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:41:20": {
+            "n_reporte": "2024-10-18 05:41:20",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:41:45": {
+            "n_reporte": "2024-10-18 05:41:45",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:42:10": {
+            "n_reporte": "2024-10-18 05:42:10",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:42:35": {
+            "n_reporte": "2024-10-18 05:42:35",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:43:00": {
+            "n_reporte": "2024-10-18 05:43:00",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:43:25": {
+            "n_reporte": "2024-10-18 05:43:25",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:43:51": {
+            "n_reporte": "2024-10-18 05:43:51",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:44:16": {
+            "n_reporte": "2024-10-18 05:44:16",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:44:41": {
+            "n_reporte": "2024-10-18 05:44:41",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:06": {
+            "n_reporte": "2024-10-18 05:45:06",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:31": {
+            "n_reporte": "2024-10-18 05:45:31",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:56": {
+            "n_reporte": "2024-10-18 05:45:56",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:46:21": {
+            "n_reporte": "2024-10-18 05:46:21",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:46:46": {
+            "n_reporte": "2024-10-18 05:46:46",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:47:11": {
+            "n_reporte": "2024-10-18 05:47:11",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:47:36": {
+            "n_reporte": "2024-10-18 05:47:36",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:01": {
+            "n_reporte": "2024-10-18 05:48:01",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:26": {
+            "n_reporte": "2024-10-18 05:48:26",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:51": {
+            "n_reporte": "2024-10-18 05:48:51",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:49:16": {
+            "n_reporte": "2024-10-18 05:49:16",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:49:41": {
+            "n_reporte": "2024-10-18 05:49:41",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:06": {
+            "n_reporte": "2024-10-18 05:50:06",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:31": {
+            "n_reporte": "2024-10-18 05:50:31",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:56": {
+            "n_reporte": "2024-10-18 05:50:56",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:51:21": {
+            "n_reporte": "2024-10-18 05:51:21",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:51:46": {
+            "n_reporte": "2024-10-18 05:51:46",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:52:11": {
+            "n_reporte": "2024-10-18 05:52:11",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:52:36": {
+            "n_reporte": "2024-10-18 05:52:36",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:01": {
+            "n_reporte": "2024-10-18 05:53:01",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:26": {
+            "n_reporte": "2024-10-18 05:53:26",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:51": {
+            "n_reporte": "2024-10-18 05:53:51",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:54:16": {
+            "n_reporte": "2024-10-18 05:54:16",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:54:41": {
+            "n_reporte": "2024-10-18 05:54:41",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:06": {
+            "n_reporte": "2024-10-18 05:55:06",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:31": {
+            "n_reporte": "2024-10-18 05:55:31",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:56": {
+            "n_reporte": "2024-10-18 05:55:56",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:56:21": {
+            "n_reporte": "2024-10-18 05:56:21",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:56:47": {
+            "n_reporte": "2024-10-18 05:56:47",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:57:12": {
+            "n_reporte": "2024-10-18 05:57:12",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:57:37": {
+            "n_reporte": "2024-10-18 05:57:37",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:02": {
+            "n_reporte": "2024-10-18 05:58:02",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:27": {
+            "n_reporte": "2024-10-18 05:58:27",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:52": {
+            "n_reporte": "2024-10-18 05:58:52",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:59:17": {
+            "n_reporte": "2024-10-18 05:59:17",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:59:42": {
+            "n_reporte": "2024-10-18 05:59:42",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:07": {
+            "n_reporte": "2024-10-18 06:00:07",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:32": {
+            "n_reporte": "2024-10-18 06:00:32",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:57": {
+            "n_reporte": "2024-10-18 06:00:57",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:01:22": {
+            "n_reporte": "2024-10-18 06:01:22",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:01:47": {
+            "n_reporte": "2024-10-18 06:01:47",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "30": {
+        "2024-10-18 05:32:37": {
+            "n_reporte": "2024-10-18 05:32:37",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:33:02": {
+            "n_reporte": "2024-10-18 05:33:02",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:33:27": {
+            "n_reporte": "2024-10-18 05:33:27",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:33:52": {
+            "n_reporte": "2024-10-18 05:33:52",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:34:17": {
+            "n_reporte": "2024-10-18 05:34:17",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:34:42": {
+            "n_reporte": "2024-10-18 05:34:42",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:35:07": {
+            "n_reporte": "2024-10-18 05:35:07",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:35:32": {
+            "n_reporte": "2024-10-18 05:35:32",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:35:58": {
+            "n_reporte": "2024-10-18 05:35:58",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:36:23": {
+            "n_reporte": "2024-10-18 05:36:23",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:36:48": {
+            "n_reporte": "2024-10-18 05:36:48",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:37:13": {
+            "n_reporte": "2024-10-18 05:37:13",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:37:38": {
+            "n_reporte": "2024-10-18 05:37:38",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:03": {
+            "n_reporte": "2024-10-18 05:38:03",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:28": {
+            "n_reporte": "2024-10-18 05:38:28",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:53": {
+            "n_reporte": "2024-10-18 05:38:53",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:39:18": {
+            "n_reporte": "2024-10-18 05:39:18",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:39:43": {
+            "n_reporte": "2024-10-18 05:39:43",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:40:08": {
+            "n_reporte": "2024-10-18 05:40:08",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:40:33": {
+            "n_reporte": "2024-10-18 05:40:33",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:40:58": {
+            "n_reporte": "2024-10-18 05:40:58",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:41:23": {
+            "n_reporte": "2024-10-18 05:41:23",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:41:48": {
+            "n_reporte": "2024-10-18 05:41:48",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:42:13": {
+            "n_reporte": "2024-10-18 05:42:13",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:42:38": {
+            "n_reporte": "2024-10-18 05:42:38",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:43:03": {
+            "n_reporte": "2024-10-18 05:43:03",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:43:28": {
+            "n_reporte": "2024-10-18 05:43:28",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:43:53": {
+            "n_reporte": "2024-10-18 05:43:53",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:44:18": {
+            "n_reporte": "2024-10-18 05:44:18",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:44:43": {
+            "n_reporte": "2024-10-18 05:44:43",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:08": {
+            "n_reporte": "2024-10-18 05:45:08",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:33": {
+            "n_reporte": "2024-10-18 05:45:33",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:58": {
+            "n_reporte": "2024-10-18 05:45:58",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:46:23": {
+            "n_reporte": "2024-10-18 05:46:23",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:46:48": {
+            "n_reporte": "2024-10-18 05:46:48",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:47:13": {
+            "n_reporte": "2024-10-18 05:47:13",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:47:38": {
+            "n_reporte": "2024-10-18 05:47:38",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:03": {
+            "n_reporte": "2024-10-18 05:48:03",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:28": {
+            "n_reporte": "2024-10-18 05:48:28",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:53": {
+            "n_reporte": "2024-10-18 05:48:53",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:49:18": {
+            "n_reporte": "2024-10-18 05:49:18",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:49:43": {
+            "n_reporte": "2024-10-18 05:49:43",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:08": {
+            "n_reporte": "2024-10-18 05:50:08",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:33": {
+            "n_reporte": "2024-10-18 05:50:33",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:58": {
+            "n_reporte": "2024-10-18 05:50:58",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:51:24": {
+            "n_reporte": "2024-10-18 05:51:24",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:51:49": {
+            "n_reporte": "2024-10-18 05:51:49",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:52:14": {
+            "n_reporte": "2024-10-18 05:52:14",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:52:39": {
+            "n_reporte": "2024-10-18 05:52:39",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:04": {
+            "n_reporte": "2024-10-18 05:53:04",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:29": {
+            "n_reporte": "2024-10-18 05:53:29",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:54": {
+            "n_reporte": "2024-10-18 05:53:54",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:54:19": {
+            "n_reporte": "2024-10-18 05:54:19",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:54:44": {
+            "n_reporte": "2024-10-18 05:54:44",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:09": {
+            "n_reporte": "2024-10-18 05:55:09",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:34": {
+            "n_reporte": "2024-10-18 05:55:34",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:59": {
+            "n_reporte": "2024-10-18 05:55:59",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:56:24": {
+            "n_reporte": "2024-10-18 05:56:24",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:56:49": {
+            "n_reporte": "2024-10-18 05:56:49",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:57:14": {
+            "n_reporte": "2024-10-18 05:57:14",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:57:39": {
+            "n_reporte": "2024-10-18 05:57:39",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:04": {
+            "n_reporte": "2024-10-18 05:58:04",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:29": {
+            "n_reporte": "2024-10-18 05:58:29",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:54": {
+            "n_reporte": "2024-10-18 05:58:54",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:59:19": {
+            "n_reporte": "2024-10-18 05:59:19",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:59:44": {
+            "n_reporte": "2024-10-18 05:59:44",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:09": {
+            "n_reporte": "2024-10-18 06:00:09",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:34": {
+            "n_reporte": "2024-10-18 06:00:34",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:59": {
+            "n_reporte": "2024-10-18 06:00:59",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:01:24": {
+            "n_reporte": "2024-10-18 06:01:24",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:01:49": {
+            "n_reporte": "2024-10-18 06:01:49",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_3.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_3.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "31": {
+        "2024-10-18 05:35:45": {
+            "n_reporte": "2024-10-18 05:35:45",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:36:10": {
+            "n_reporte": "2024-10-18 05:36:10",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "32": {
+        "2024-10-18 05:36:58": {
+            "n_reporte": "2024-10-18 05:36:58",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:37:23": {
+            "n_reporte": "2024-10-18 05:37:23",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "33": {
+        "2024-10-18 05:37:50": {
+            "n_reporte": "2024-10-18 05:37:50",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:38:15": {
+            "n_reporte": "2024-10-18 05:38:15",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "34": {
+        "2024-10-18 05:41:26": {
+            "n_reporte": "2024-10-18 05:41:26",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "35": {
+        "2024-10-18 05:43:38": {
+            "n_reporte": "2024-10-18 05:43:38",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
+    },
+    "36": {
+        "2024-10-18 05:44:40": {
+            "n_reporte": "2024-10-18 05:44:40",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:05": {
+            "n_reporte": "2024-10-18 05:45:05",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:30": {
+            "n_reporte": "2024-10-18 05:45:30",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:45:55": {
+            "n_reporte": "2024-10-18 05:45:55",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:46:20": {
+            "n_reporte": "2024-10-18 05:46:20",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:46:45": {
+            "n_reporte": "2024-10-18 05:46:45",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:47:10": {
+            "n_reporte": "2024-10-18 05:47:10",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:47:35": {
+            "n_reporte": "2024-10-18 05:47:35",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:00": {
+            "n_reporte": "2024-10-18 05:48:00",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:25": {
+            "n_reporte": "2024-10-18 05:48:25",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:48:50": {
+            "n_reporte": "2024-10-18 05:48:50",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:49:16": {
+            "n_reporte": "2024-10-18 05:49:16",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:49:41": {
+            "n_reporte": "2024-10-18 05:49:41",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:06": {
+            "n_reporte": "2024-10-18 05:50:06",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:31": {
+            "n_reporte": "2024-10-18 05:50:31",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:50:56": {
+            "n_reporte": "2024-10-18 05:50:56",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:51:21": {
+            "n_reporte": "2024-10-18 05:51:21",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:51:46": {
+            "n_reporte": "2024-10-18 05:51:46",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:52:11": {
+            "n_reporte": "2024-10-18 05:52:11",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:52:36": {
+            "n_reporte": "2024-10-18 05:52:36",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:01": {
+            "n_reporte": "2024-10-18 05:53:01",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:26": {
+            "n_reporte": "2024-10-18 05:53:26",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:53:51": {
+            "n_reporte": "2024-10-18 05:53:51",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:54:16": {
+            "n_reporte": "2024-10-18 05:54:16",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:54:41": {
+            "n_reporte": "2024-10-18 05:54:41",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:06": {
+            "n_reporte": "2024-10-18 05:55:06",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:31": {
+            "n_reporte": "2024-10-18 05:55:31",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:55:56": {
+            "n_reporte": "2024-10-18 05:55:56",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:56:21": {
+            "n_reporte": "2024-10-18 05:56:21",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:56:46": {
+            "n_reporte": "2024-10-18 05:56:46",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:57:11": {
+            "n_reporte": "2024-10-18 05:57:11",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:57:36": {
+            "n_reporte": "2024-10-18 05:57:36",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:01": {
+            "n_reporte": "2024-10-18 05:58:01",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:26": {
+            "n_reporte": "2024-10-18 05:58:26",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:58:51": {
+            "n_reporte": "2024-10-18 05:58:51",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:59:16": {
+            "n_reporte": "2024-10-18 05:59:16",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 05:59:41": {
+            "n_reporte": "2024-10-18 05:59:41",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:06": {
+            "n_reporte": "2024-10-18 06:00:06",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:31": {
+            "n_reporte": "2024-10-18 06:00:31",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:00:57": {
+            "n_reporte": "2024-10-18 06:00:57",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:01:22": {
+            "n_reporte": "2024-10-18 06:01:22",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        },
+        "2024-10-18 06:01:47": {
+            "n_reporte": "2024-10-18 06:01:47",
+            "contenido": {
+                "lista_rutas_bloques_seguidor": [
+                    "a.txt/bloque_4.bin"
+                ],
+                "lista_rutas_bloques_lider": [
+                    "a.txt/bloque_2.bin"
+                ],
+                "metadatos": {
+                    "seguidores": "[\n    {\n        \"nombre\": \"bloque_4.bin\",\n        \"tamano-bytes\": 17,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]",
+                    "lider": "[\n    {\n        \"nombre\": \"bloque_2.bin\",\n        \"tamano-bytes\": 16,\n        \"fecha_modificacion\": \"Fri Oct 18 04:30:03 2024\",\n        \"usuario\": \"mdch\"\n    }\n]"
+                }
+            }
+        }
     }
 }

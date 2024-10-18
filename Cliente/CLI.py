@@ -423,13 +423,25 @@ class CLI:
                 first_data_node_url_seguidor = respuesta_localizacion['url_data_node_seguidor'][0]  # Obtener la URL del DataNode seguidor
                 respuesta_lectura = client.read_file(first_data_node_url_seguidor, nombre_archivo, nombre_usuario, respuesta_localizacion)
 
+                download_dir = os.getenv("DOWNLOAD_DIR")
                 nombre_archivo_para_lectura = f"lectura_{nombre_archivo}"
-                merge_file(nombre_archivo_para_lectura, respuesta_lectura["contenido_bloques_seguidor"])
+                ruta_archivo_descargado = os.path.join(download_dir, nombre_archivo_para_lectura)
+
+                print(f"\n{respuesta_lectura}\n")
+                if respuesta_lectura['estado_exitoso']:
+                    # Abrir el archivo en modo escritura (sobrescribiendo si ya existe)
+                    contenido_archivo = b""
+                    for i in range(len(respuesta_lectura["contenido_bloques_seguidor"]) - 1, -1, -1):
+                        print(f'Contenido del bloque {i}: {respuesta_lectura["contenido_bloques_seguidor"][i]}')
+                        contenido_archivo += respuesta_lectura["contenido_bloques_seguidor"][i]
+                    print(f'Contenido del archivo: {contenido_archivo}')
+                    with open(ruta_archivo_descargado, 'wb') as file:
+                        file.write(contenido_archivo)
+                            
+                
 
                 # Ver el contenido del archivo en consola
                 print("Contenido del archivo:\n---------------------\n")
-                download_dir = os.getenv("DOWNLOAD_DIR")
-                ruta_archivo_descargado = os.path.join(download_dir, nombre_archivo_para_lectura)
                 # Mantener la consola abierta hasta que el usuario escriba "salir"
                 while True:
                     with open(ruta_archivo_descargado, 'r') as file:
