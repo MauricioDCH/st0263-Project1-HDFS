@@ -244,32 +244,26 @@ class ReadFileDataNodeResponse(_message.Message):
     def __init__(self, lista_contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ..., estado_exitoso: bool = ...) -> None: ...
 
 class PipeLineDataNodeRequest(_message.Message):
-    __slots__ = ("nombre_archivo", "id_bloque_lider", "id_bloque_seguidor", "contenido_bloques_lider", "contenido_bloques_seguidor")
+    __slots__ = ("nombre_archivo", "id_data_node_lider", "id_data_node_seguidor", "contenido_bloques_lider", "contenido_bloques_seguidor")
     NOMBRE_ARCHIVO_FIELD_NUMBER: _ClassVar[int]
-    ID_BLOQUE_LIDER_FIELD_NUMBER: _ClassVar[int]
-    ID_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
+    ID_DATA_NODE_LIDER_FIELD_NUMBER: _ClassVar[int]
+    ID_DATA_NODE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     CONTENIDO_BLOQUES_LIDER_FIELD_NUMBER: _ClassVar[int]
     CONTENIDO_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     nombre_archivo: str
-    id_bloque_lider: _containers.RepeatedScalarFieldContainer[int]
-    id_bloque_seguidor: _containers.RepeatedScalarFieldContainer[int]
+    id_data_node_lider: _containers.RepeatedScalarFieldContainer[int]
+    id_data_node_seguidor: _containers.RepeatedScalarFieldContainer[int]
     contenido_bloques_lider: _containers.RepeatedScalarFieldContainer[bytes]
     contenido_bloques_seguidor: _containers.RepeatedScalarFieldContainer[bytes]
-    def __init__(self, nombre_archivo: _Optional[str] = ..., id_bloque_lider: _Optional[_Iterable[int]] = ..., id_bloque_seguidor: _Optional[_Iterable[int]] = ..., contenido_bloques_lider: _Optional[_Iterable[bytes]] = ..., contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ...) -> None: ...
+    def __init__(self, nombre_archivo: _Optional[str] = ..., id_data_node_lider: _Optional[_Iterable[int]] = ..., id_data_node_seguidor: _Optional[_Iterable[int]] = ..., contenido_bloques_lider: _Optional[_Iterable[bytes]] = ..., contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ...) -> None: ...
 
 class PipeLineDataNodeResponse(_message.Message):
-    __slots__ = ("id_bloque_lider", "id_bloque_seguidor", "estado_exitoso", "tamano_bloque_lider", "tamano_bloque_seguidor")
-    ID_BLOQUE_LIDER_FIELD_NUMBER: _ClassVar[int]
-    ID_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
+    __slots__ = ("estado_exitoso", "contenido_bloques_seguidor")
     ESTADO_EXITOSO_FIELD_NUMBER: _ClassVar[int]
-    TAMANO_BLOQUE_LIDER_FIELD_NUMBER: _ClassVar[int]
-    TAMANO_BLOQUE_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
-    id_bloque_lider: int
-    id_bloque_seguidor: int
+    CONTENIDO_BLOQUES_SEGUIDOR_FIELD_NUMBER: _ClassVar[int]
     estado_exitoso: bool
-    tamano_bloque_lider: str
-    tamano_bloque_seguidor: str
-    def __init__(self, id_bloque_lider: _Optional[int] = ..., id_bloque_seguidor: _Optional[int] = ..., estado_exitoso: bool = ..., tamano_bloque_lider: _Optional[str] = ..., tamano_bloque_seguidor: _Optional[str] = ...) -> None: ...
+    contenido_bloques_seguidor: _containers.RepeatedScalarFieldContainer[bytes]
+    def __init__(self, estado_exitoso: bool = ..., contenido_bloques_seguidor: _Optional[_Iterable[bytes]] = ...) -> None: ...
 
 class DeleteFileDataNodeRequest(_message.Message):
     __slots__ = ("nombre_archivo",)

@@ -2,5 +2,9 @@
     "xc": {
         "password": "$2b$12$crKhNRIKBVG.HDbWPxXte.Tttho2b9yvdJfsuagSI03hKfX//pl9q",
         "client_ip": "181.136.47.24"
+    },
+    "simon": {
+        "password": "$2b$12$4DVheGM16kdpwv7UJ7qmO.ld83jhhvCAuuJJJsSKDYCCCAARH98Ne",
+        "client_ip": "190.158.28.75"
     }
 }

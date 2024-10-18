@@ -180,18 +180,15 @@ message ReadFileDataNodeResponse {
 // 11. Solicitud para la replicación de bloques entre DataNode Líder y Seguidor.
 message PipeLineDataNodeRequest {
     string nombre_archivo = 1;        // Nombre del archivo
-    repeated int32 id_bloque_lider = 2; // ID del bloque original
-    repeated int32 id_bloque_seguidor = 3; // ID del bloque replicado
+    repeated int32 id_data_node_lider = 2; // ID del bloque original
+    repeated int32 id_data_node_seguidor = 3; // ID del bloque replicado
     repeated bytes contenido_bloques_lider = 4; // Contenido del bloque original
     repeated bytes contenido_bloques_seguidor = 5; // Contenido del bloque replicado
 }
 
 message PipeLineDataNodeResponse {
-    int32 id_bloque_lider = 1; // ID del bloque original almacenado
-    int32 id_bloque_seguidor = 2; // ID del bloque replicado almacenado
-    bool estado_exitoso = 3; // Estado del almacenamiento
-    string tamano_bloque_lider = 4; // Tamano del bloque original almacenado
-    string tamano_bloque_seguidor = 5; // Tamano del bloque replicado almacenado
+    bool estado_exitoso = 1; // Estado del almacenamiento
+    repeated bytes contenido_bloques_seguidor = 2; // Contenido del bloque replicado
 }
 
 // 12. Borrar el archivo de localization_folder.json en el NameNode

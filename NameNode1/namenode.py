@@ -80,7 +80,7 @@ class FullServicesServicer(hdfs_pb2_grpc.FullServicesServicer):
         datanodes = heartbeats.cargar_datos_desde_json_heartbeat()
         nombre__archivo = request.nombre_archivo
         
-        print(f"\n\nDataNodes disponibles: {datanodes["data_nodes_activos"]}\n\n")
+        print(f"\n\nDataNodes disponibles: {datanodes['data_nodes_activos']}\n\n")
         lista_todos_los_datanodes = datanodes["data_nodes_activos"]
         
         # Inicializar listas aleatorias para líderes y seguidores

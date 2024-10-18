@@ -374,6 +374,31 @@
             "id_data_node": 76,
             "data_node_ip": "127.0.0.1",
             "data_node_port": 6002
+        },
+        {
+            "id_data_node": 83,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6002
+        },
+        {
+            "id_data_node": 86,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6002
+        },
+        {
+            "id_data_node": 89,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6002
+        },
+        {
+            "id_data_node": 92,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6002
+        },
+        {
+            "id_data_node": 95,
+            "data_node_ip": "127.0.0.1",
+            "data_node_port": 6002
         }
     ]
 }

@@ -122,11 +122,21 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
 
     def UploadFileDataNodeClient(self, request, context):
         response = pb2.UploadFileDataNodeResponse()
-        resources_path = os.getenv("LEADER_RESOURCES_2")
+        resources_path = os.getenv("LEADER_RESOURCES_1")
+        print("HOLAAAAAAAAA")
         try:
             dir_name_leader = os.path.join(resources_path, request.nombre_archivo)
             os.makedirs(dir_name_leader, exist_ok=True)
-            blocks_leader = []
+            
+            #blocks_leader = []
+            file_path = os.path.join(dir_name_leader, f'bloque_{request.lista_id_data_node_lider[0]}.bin')
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            with open(file_path, 'wb') as f:
+                    f.write(request.lista_contenido_bloques_lider[0])
+
+            #blocks_leader.append(request.lista_contenido_bloques_lider[0])
+            
+            ''''
             for idx, bloque in enumerate(request.lista_contenido_bloques_lider):
                 file_path = os.path.join(dir_name_leader, f'bloque_{request.lista_id_data_node_lider[idx]}.bin')
                 os.makedirs(os.path.dirname(file_path), exist_ok=True) 
@@ -134,11 +144,22 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                     f.write(bloque)
                 
                 blocks_leader.append(bloque)
-
+            '''
+            print("gggggggggggg")
             dir_name_follower = os.path.join(follower_resources, request.nombre_archivo)
             os.makedirs(dir_name_follower, exist_ok=True)
+            #blocks_follower = []
+            file_path = os.path.join(dir_name_follower, f'bloque_{request.lista_id_data_node_seguidor[0]}.bin')
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            print(request.lista_contenido_bloques_lider)
+            print("iiiiiiiiiiiiiiiii")
+            print(request.lista_contenido_bloques_lider[0])
+            with open(file_path, 'wb') as f:
+                f.write(request.lista_contenido_bloques_lider[0])
 
-            blocks_follower = []
+            #blocks_follower.append(request.lista_contenido_bloques_lider[0])    
+            
+            '''
             for idx, bloque in enumerate(request.lista_contenido_bloques_lider):
                 file_path = os.path.join(dir_name_follower, f'bloque_{request.lista_id_data_node_seguidor[idx]}.bin')
                 os.makedirs(os.path.dirname(file_path), exist_ok=True) 
@@ -146,36 +167,62 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                     f.write(bloque)
                 
                 blocks_follower.append(bloque)
+            '''
 
-            self.connectToDataNode(datanode_ip_3, datanode_port_3, blocks_leader)
+            if len(request.lista_id_data_node_lider) >= 1 or len(request.lista_id_data_node_seguidor) >= 1:
+                print("COMMOOOOOOOOO")
+                del request.lista_id_data_node_lider[0]
+                del request.lista_id_data_node_seguidor[0]
+                del request.lista_contenido_bloques_lider[0]
 
-            response.estado_exitoso = True
+                pipeline_request = pb2.PipeLineDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo  
+                pipeline_request.id_data_node_lider.extend(request.lista_id_data_node_lider)  
+                pipeline_request.id_data_node_seguidor.extend(request.lista_id_data_node_seguidor)
+                pipeline_request.contenido_bloques_lider.extend(request.lista_contenido_bloques_lider)
+                pipeline_request.contenido_bloques_seguidor.extend(request.lista_contenido_bloques_lider)
+
+                self.connectToDataNode(datanode_ip_1, datanode_port_1, pipeline_request)
+            
+            else:
+                response.estado_exitoso = True
+
         except Exception as e:
             response.estado_exitoso = False
             print(f"Error al guardar los bloques: {e}")
 
         return response
 
-
     def PipeLineDataNodeResponseDataNodeRequest(self, request, context):
         response = pb2.PipeLineDataNodeResponse()
-
+        resources_path = os.getenv("LEADER_RESOURCES_2")
+        print("wwwwwwwww")
         try:
+            dir_name_leader = os.path.join(resources_path, request.nombre_archivo)
+            os.makedirs(dir_name_leader, exist_ok=True)
             for idx, bloque in enumerate(request.contenido_bloques_lider):
-                file_path = os.path.join(follower_resources, f'bloque_{request.id_bloque_seguidor[idx]}.bin')
+                file_path = os.path.join(dir_name_leader, f'bloque_{request.id_data_node_lider[idx]}.bin')
                 os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 with open(file_path, 'wb') as f:
                     f.write(bloque)
-
-            response.id_bloque_lider = request.id_bloque_lider[0]  # Ejemplo, puedes ajustar según tus necesidades
-            response.id_bloque_seguidor = request.id_bloque_seguidor[0]  # Ejemplo, puedes ajustar según tus necesidades
+            print("zzzzzzzzzzzz")    
+            
+            dir_name_follower = os.path.join(follower_resources, request.nombre_archivo)
+            os.makedirs(dir_name_follower, exist_ok=True)
+            
+            for idx, bloque in enumerate(request.contenido_bloques_seguidor):
+                file_path = os.path.join(dir_name_follower, f'bloque_{request.id_data_node_seguidor[idx]}.bin')
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                with open(file_path, 'wb') as f:
+                    f.write(bloque)
+            print("yyyyyyyyyyyyyy")
             response.estado_exitoso = True
-            response.tamano_bloque_lider = str(len(request.contenido_bloques_lider))  # Tamaño como string
-            response.tamano_bloque_seguidor = str(len(request.contenido_bloques_seguidor))  # Tamaño como string
+            response.contenido_bloques_seguidor.extend(request.contenido_bloques_seguidor)
+            print("jjjjjjjjjjjjj")
         except Exception as e:
             response.estado_exitoso = False
             print(f"Error en el pipeline de replicación: {e}")
-
+ 
         return response
 
     def DownloadFileDataNodeClient(self, request, context):
