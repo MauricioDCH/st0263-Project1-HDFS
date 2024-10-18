@@ -19,20 +19,6 @@ message DataNodeDesignationNameNodeResponse {
     repeated string lista_url_data_node_lider = 3; // URLs de los DataNodes donde se almacenarán los bloques originales
     repeated string lista_url_data_node_seguidor = 4; // URLs de los DataNodes donde se almacenarán las réplicas
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// 2. Solicitud de informe de bloques por parte del DataNode.
-//message BlockReportDataNodeRequest {
-    //int32 id_data_node = 1; // ID del DataNode
-    //repeated string lista_rutas_bloques_seguidor = 2; // Rutas de bloques del DataNode
-    //repeated string lista_rutas_bloques_lider = 3;
-    //string json_diccionario_metadatos_bloques_seguidor = 4; // Metadatos de bloques en formato JSON
-    //string json_diccionario_metadatos_bloques_lider = 5;
-//}
-
-//message BlockReportNameNodeResponse {
-    //bool estado_exitoso = 1; // Estado de la actualización
-//}
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 2. Solicitud de informe de bloques por parte del DataNode.
 message BlockReportDataNodeRequest {
@@ -55,10 +41,6 @@ message BlockReportDataNodeRequest {
 message BlockReportNameNodeResponse {
     bool estado_exitoso = 1; // Estado de la actualización
 }
-
-
-
-
 
 // 3. Solicitud para consultar la ubicación de los bloques de un archivo.
 message FileLocationClientRequest {

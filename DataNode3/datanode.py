@@ -29,9 +29,6 @@ datanode_register = os.getenv("DATANODES_REGISTRY_3")
 datanode_ip_1 = os.getenv("DATANODE_IP_1")
 datanode_port_1 = os.getenv("DATANODE_PORT_1")
 
-datanode_ip_2 = os.getenv("DATANODE_IP_2")
-datanode_port_2 = os.getenv("DATANODE_PORT_2")
-
 
 def generar_y_llenar_archivo_DB():
     # Ejemplo de uso
@@ -126,56 +123,84 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
         try:
             dir_name_leader = os.path.join(resources_path, request.nombre_archivo)
             os.makedirs(dir_name_leader, exist_ok=True)
-            blocks_leader = []
-            for idx, bloque in enumerate(request.lista_contenido_bloques_lider):
-                file_path = os.path.join(dir_name_leader, f'bloque_{request.lista_id_data_node_lider[idx]}.bin')
-                os.makedirs(os.path.dirname(file_path), exist_ok=True) 
-                with open(file_path, 'wb') as f:
-                    f.write(bloque)
-                
-                blocks_leader.append(bloque)
+            
+            file_path = os.path.join(dir_name_leader, f'bloque_{request.lista_id_data_node_lider[2]}.bin')
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            with open(file_path, 'wb') as f:
+                f.write(request.lista_contenido_bloques_lider[2])
 
-            dir_name_follower = os.path.join(follower_resources, request.nombre_archivo)
-            os.makedirs(dir_name_follower, exist_ok=True)
+            if len(request.lista_id_data_node_lider) >= 1 or len(request.lista_id_data_node_seguidor) >= 1:
+                pipeline_request = pb2.PipeLineDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo  
+                pipeline_request.id_data_node_lider.extend(request.lista_id_data_node_lider)  
+                pipeline_request.id_data_node_seguidor.extend(request.lista_id_data_node_seguidor)
+                pipeline_request.contenido_bloques_lider.extend(request.lista_contenido_bloques_lider)
+                pipeline_request.contenido_bloques_seguidor.extend(request.lista_contenido_bloques_lider)
 
-            blocks_follower = []
-            for idx, bloque in enumerate(request.lista_contenido_bloques_lider):
-                file_path = os.path.join(dir_name_follower, f'bloque_{request.lista_id_data_node_seguidor[idx]}.bin')
-                os.makedirs(os.path.dirname(file_path), exist_ok=True) 
-                with open(file_path, 'wb') as f:
-                    f.write(bloque)
-                
-                blocks_follower.append(bloque)
+                print("\n\n\nContenido de la petición que se va a hacer a datanode siguiente...")
+                print(f'Nombre del archivo: {pipeline_request.nombre_archivo}')
+                print(f'Lista de ID de DataNode líder: {pipeline_request.id_data_node_lider}')
+                print(f'Lista de ID de DataNode seguidor: {pipeline_request.id_data_node_seguidor}')
+                print(f'Lista de contenido de bloques líder: {pipeline_request.contenido_bloques_lider}')
+                print(f'Lista de contenido de bloques seguidor: {pipeline_request.contenido_bloques_seguidor}')
 
-            self.connectToDataNode(datanode_ip_1, datanode_port_1, blocks_leader)
+                self.connectToDataNode(datanode_ip_1, datanode_port_1, pipeline_request)
+            
+            else:
+                response.estado_exitoso = True
 
-            response.estado_exitoso = True
         except Exception as e:
             response.estado_exitoso = False
             print(f"Error al guardar los bloques: {e}")
 
         return response
 
-
     def PipeLineDataNodeResponseDataNodeRequest(self, request, context):
         response = pb2.PipeLineDataNodeResponse()
+        resources_path = os.getenv("LEADER_RESOURCES_3")
+        
+        # Imprimir contenido de la solicitud
+        print(f'Nombre del archivo: {request.nombre_archivo}')
+        print(f'ID DataNode líder: {request.id_data_node_lider}')
+        print(f'ID DataNode seguidor: {request.id_data_node_seguidor}')
+        print(f'Contenido de los bloques líder: {request.contenido_bloques_lider}')
+        print(f'Contenido de los bloques seguidor: {request.contenido_bloques_seguidor}')
 
         try:
-            for idx, bloque in enumerate(request.contenido_bloques_lider):
-                file_path = os.path.join(follower_resources, f'bloque_{request.id_bloque_seguidor[idx]}.bin')
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                with open(file_path, 'wb') as f:
-                    f.write(bloque)
+            dir_name_leader = os.path.join(resources_path, request.nombre_archivo)
+            os.makedirs(dir_name_leader, exist_ok=True)
+            
+            file_path = os.path.join(dir_name_leader, f'bloque_{request.id_data_node_lider[2]}.bin')
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            
+            with open(file_path, 'wb') as f:
+                f.write(request.contenido_bloques_lider[2])
 
-            response.id_bloque_lider = request.id_bloque_lider[0]  # Ejemplo, puedes ajustar según tus necesidades
-            response.id_bloque_seguidor = request.id_bloque_seguidor[0]  # Ejemplo, puedes ajustar según tus necesidades
+            dir_name_follower = os.path.join(follower_resources, request.nombre_archivo)
+            os.makedirs(dir_name_follower, exist_ok=True)
+            
+            file_path = os.path.join(dir_name_follower, f'bloque_{request.id_data_node_seguidor[1]}.bin')
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            print(request.contenido_bloques_seguidor)
+            print("iiiiiiiiiiiiiiiii")
+            with open(file_path, 'wb') as f:
+                f.write(request.contenido_bloques_seguidor[1])
+            
+            if len(request.id_data_node_lider) >= 1 or len(request.id_data_node_seguidor) >= 1:
+                pipeline_request = pb2.PipeLineDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo  
+                pipeline_request.id_data_node_lider.extend(request.id_data_node_lider)  
+                pipeline_request.id_data_node_seguidor.extend(request.id_data_node_seguidor)
+                pipeline_request.contenido_bloques_lider.extend(request.contenido_bloques_lider)
+                pipeline_request.contenido_bloques_seguidor.extend(request.contenido_bloques_seguidor)
+                
+                self.connectToDataNode(datanode_ip_1, datanode_port_1, pipeline_request)
+            
             response.estado_exitoso = True
-            response.tamano_bloque_lider = str(len(request.contenido_bloques_lider))  # Tamaño como string
-            response.tamano_bloque_seguidor = str(len(request.contenido_bloques_seguidor))  # Tamaño como string
+            response.contenido_bloques_seguidor.extend(request.contenido_bloques_seguidor)
         except Exception as e:
             response.estado_exitoso = False
             print(f"Error en el pipeline de replicación: {e}")
-
         return response
 
     def DownloadFileDataNodeClient(self, request, context):
@@ -483,21 +508,20 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
                 else:
                     print("Error al enviar el BlockReport al NameNode.")
 
-    def connectToDataNode(self, datanode_ip, datanode_port, bloques_a_replicar):
+    def connectToDataNode(self, datanode_ip, datanode_port, pipeline_request):
         try:
             with grpc.insecure_channel(f'{datanode_ip}:{datanode_port}') as channel:
-                stub = pb2_grpc.FullServicesStub(channel)
-                request = pb2.PipeLineDataNodeRequest(
-                    contenido_bloques_lider=bloques_a_replicar,
-                    id_bloque_lider=[response.id_data_node],  
-                    id_bloque_seguidor=[response.id_data_node]
-                )
-                response = stub.PipeLineDataNodeResponseDataNodeRequest(request)
+                print("oooooooooooooooo")
+                stub = pb2_grpc.FullServicesStub(channel) 
+
+                response = stub.PipeLineDataNodeResponseDataNodeRequest(pipeline_request)
+                print("rrrrrrrrrrrrrrrr")
 
                 if response.estado_exitoso:
-                    print(f'Replicación exitosa de bloques hacia DataNode en {datanode_ip}:{datanode_port}')
+                    print(f'Conexión exitosa con DataNode en {datanode_ip}:{datanode_port}')
                 else:
-                    print(f'Error en la replicación hacia DataNode en {datanode_ip}:{datanode_port}')
+                    print(f'Error en la conexión hacia DataNode en {datanode_ip}:{datanode_port}')
+            
         except Exception as e:
             print(f'Error al conectar con DataNode {datanode_ip}:{datanode_port}: {e}')
 

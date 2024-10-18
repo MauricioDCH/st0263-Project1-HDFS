@@ -3,7 +3,7 @@
         "nombre": "follower",
         "tipo": "carpeta",
         "tamano-bytes": null,
-        "fecha_modificacion": "Thu Oct 17 01:59:57 2024",
+        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
         "usuario": "mdch",
         "cantidad_archivos": 1,
         "subcarpetas-archivos-internos": [
@@ -11,15 +11,15 @@
                 "nombre": "a.txt",
                 "tipo": "carpeta",
                 "tamano-bytes": null,
-                "fecha_modificacion": "Thu Oct 17 01:59:57 2024",
+                "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
                 "usuario": "mdch",
                 "cantidad_archivos": 1,
                 "subcarpetas-archivos-internos": [
                     {
-                        "nombre": "bloque_79.bin",
+                        "nombre": "bloque_245.bin",
                         "tipo": "archivo",
-                        "tamano-bytes": 49,
-                        "fecha_modificacion": "Thu Oct 17 01:59:57 2024",
+                        "tamano-bytes": 17,
+                        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
                         "usuario": "mdch"
                     }
                 ]
@@ -30,7 +30,7 @@
         "nombre": "leader",
         "tipo": "carpeta",
         "tamano-bytes": null,
-        "fecha_modificacion": "Thu Oct 17 01:59:57 2024",
+        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
         "usuario": "mdch",
         "cantidad_archivos": 1,
         "subcarpetas-archivos-internos": [
@@ -38,15 +38,15 @@
                 "nombre": "a.txt",
                 "tipo": "carpeta",
                 "tamano-bytes": null,
-                "fecha_modificacion": "Thu Oct 17 01:59:57 2024",
+                "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
                 "usuario": "mdch",
                 "cantidad_archivos": 1,
                 "subcarpetas-archivos-internos": [
                     {
-                        "nombre": "bloque_79.bin",
+                        "nombre": "bloque_243.bin",
                         "tipo": "archivo",
-                        "tamano-bytes": 49,
-                        "fecha_modificacion": "Thu Oct 17 01:59:57 2024",
+                        "tamano-bytes": 16,
+                        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
                         "usuario": "mdch"
                     }
                 ]

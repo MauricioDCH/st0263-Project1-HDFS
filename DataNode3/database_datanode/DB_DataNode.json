@@ -3,18 +3,54 @@
         "nombre": "follower",
         "tipo": "carpeta",
         "tamano-bytes": null,
-        "fecha_modificacion": "Thu Oct 17 01:38:00 2024",
+        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
         "usuario": "mdch",
-        "cantidad_archivos": 0,
-        "subcarpetas-archivos-internos": []
+        "cantidad_archivos": 1,
+        "subcarpetas-archivos-internos": [
+            {
+                "nombre": "a.txt",
+                "tipo": "carpeta",
+                "tamano-bytes": null,
+                "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
+                "usuario": "mdch",
+                "cantidad_archivos": 1,
+                "subcarpetas-archivos-internos": [
+                    {
+                        "nombre": "bloque_244.bin",
+                        "tipo": "archivo",
+                        "tamano-bytes": 16,
+                        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
+                        "usuario": "mdch"
+                    }
+                ]
+            }
+        ]
     },
     {
         "nombre": "leader",
         "tipo": "carpeta",
         "tamano-bytes": null,
-        "fecha_modificacion": "Thu Oct 17 01:38:00 2024",
+        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
         "usuario": "mdch",
-        "cantidad_archivos": 0,
-        "subcarpetas-archivos-internos": []
+        "cantidad_archivos": 1,
+        "subcarpetas-archivos-internos": [
+            {
+                "nombre": "a.txt",
+                "tipo": "carpeta",
+                "tamano-bytes": null,
+                "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
+                "usuario": "mdch",
+                "cantidad_archivos": 1,
+                "subcarpetas-archivos-internos": [
+                    {
+                        "nombre": "bloque_245.bin",
+                        "tipo": "archivo",
+                        "tamano-bytes": 17,
+                        "fecha_modificacion": "Fri Oct 18 01:37:04 2024",
+                        "usuario": "mdch"
+                    }
+                ]
+            }
+        ]
     }
 ]

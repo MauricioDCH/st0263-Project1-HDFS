@@ -1,3 +1,19 @@
 {
-    "data_nodes_activos": []
+    "data_nodes_activos": [
+        {
+            "id": 243,
+            "url": "127.0.0.1:6000",
+            "ultimo_heartbeat": "2024-10-18 01:37:51"
+        },
+        {
+            "id": 244,
+            "url": "127.0.0.1:6001",
+            "ultimo_heartbeat": "2024-10-18 01:37:54"
+        },
+        {
+            "id": 245,
+            "url": "127.0.0.1:6002",
+            "ultimo_heartbeat": "2024-10-18 01:37:56"
+        }
+    ]
 }
