@@ -322,44 +322,6 @@ class CLI:
             print(f"Error: '{comando[1]}' no es un archivo ni un directorio válido.")
 
 
-
-
-
-
-
-
-
-
-
-    """
-    def comando_get(self, username, comando):
-        if len(comando) > 1:
-            nombre_archivo = comando[1]
-            try:
-                configs = self.cargar_configuraciones()
-                client = self.crear_cliente(configs[0], configs[1], configs[2], configs[3])
-
-                nombre_usuario = username
-                respuesta_localizacion = client.locate_file(nombre_archivo, nombre_usuario)
-                if 'url_data_node_seguidor' in respuesta_localizacion and respuesta_localizacion['url_data_node_seguidor']:
-                    first_data_node_url_seguidor = respuesta_localizacion['url_data_node_seguidor'][0]
-                    respuesta_descarga = client.download_file(first_data_node_url_seguidor, nombre_archivo, nombre_usuario, respuesta_localizacion)
-                    
-                    if respuesta_descarga['estado_exitoso']:
-                        print(f"\nArchivo '{nombre_archivo}' descargado con éxito.")
-                    else:
-                        print(f"\nError al descargar el archivo '{nombre_archivo}'.")
-                else:
-                    print("Error: No se encontró la URL del DataNode seguidor.")
-            
-            except grpc.RpcError as e:
-                print(f"Error RPC: {e.code()} - {e.details()}")
-            except Exception as e:
-                print(f"Error al descargar el archivo: {e}")
-        else:
-            print("Error: Debes proporcionar el nombre del archivo a descargar.")
-    """
-    
     
     def comando_get(self, username, comando):
         ruta_actual = os.path.abspath(downloadable_files)  # La ruta base que no se puede sobrepasar
@@ -375,12 +337,17 @@ class CLI:
                 if 'url_data_node_seguidor' in respuesta_localizacion and respuesta_localizacion['url_data_node_seguidor']:
                     first_data_node_url_seguidor = respuesta_localizacion['url_data_node_seguidor'][0]
                     respuesta_descarga = client.download_file(first_data_node_url_seguidor, nombre_archivo, nombre_usuario, respuesta_localizacion)
+                    print(f"\n{respuesta_descarga}\n")
                     if respuesta_descarga['estado_exitoso']:
                         # Abrir el archivo en modo escritura (sobrescribiendo si ya existe)
-                        for i in range(len(respuesta_descarga["contenido_bloques_seguidor"])):
-                            with open(ruta_archivo, 'wb') as file:
-                                file.write(respuesta_descarga["contenido_bloques_seguidor"][i])
-                        print(f"\nArchivo '{nombre_archivo}' descargado y sobrescrito con éxito.")
+                        contenido_archivo = b""
+                        for i in range(len(respuesta_descarga["contenido_bloques_seguidor"]) - 1, -1, -1):
+                            print(f'Contenido del bloque {i}: {respuesta_descarga["contenido_bloques_seguidor"][i]}')
+                            contenido_archivo += respuesta_descarga["contenido_bloques_seguidor"][i]
+                        print(f'Contenido del archivo: {contenido_archivo}')
+                        with open(ruta_archivo, 'wb') as file:
+                            file.write(contenido_archivo)
+                        #print(f"\nArchivo '{nombre_archivo}' descargado y sobrescrito con éxito.")
                     else:
                         print(f"\nError al descargar el archivo '{nombre_archivo}'.")
                 else:

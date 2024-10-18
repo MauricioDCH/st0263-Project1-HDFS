@@ -285,6 +285,7 @@ class FileSystemClient:
             lista_id_data_node_seguidor = response_file_location['id_data_node_seguidor'],
             rutas_bloques_seguidor=response_file_location['rutas_bloques_seguidor']
         )
+        print(response)
         merge_file(nombre_archivo, response["contenido_bloques_seguidor"])
         return response
     # --------------------------------------------------------------------------------------------------------------------------------

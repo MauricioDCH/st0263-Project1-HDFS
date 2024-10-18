@@ -277,6 +277,107 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
 
         return response
 
+
+    def PipeLineForGetDataNodeResponseDataNodeRequest(self, request, context):
+        response = pb2.PipeLineForGetDataNodeResponse()
+        """
+        string nombre_archivo = 1; // Nombre del archivo
+        repeated int32 lista_id_data_node_seguidor = 2; // IDs de los DataNodes donde se replicará este bloque
+        repeated string rutas_bloques_seguidor = 3; // Rutas de bloques del DataNode
+        """
+        print(f'Ingreso a la función PipeLineForGetDataNodeResponseDataNodeRequest con el bloque...')
+        print(f'Nombre del archivo: {request.nombre_archivo}')
+        print(f'Lista de ID de DataNode seguidor: {request.lista_id_data_node_seguidor}')
+        print(f'Rutas de bloques seguidor: {request.rutas_bloques_seguidor}')
+        
+        primer_ruta = request.rutas_bloques_seguidor[2]
+        diccionario_rutas = eval(primer_ruta)
+        # Imprimir el diccionario
+        print(diccionario_rutas)
+        
+        # Optener la lista de rutas de los bloques teniendo el id_data_node
+        lista_rutas = diccionario_rutas[str(request.lista_id_data_node_seguidor[2])]
+        print(f'Lista de rutas de bloques: {lista_rutas}')
+        try:
+            # Construir la ruta del archivo a descargar
+            file_paths = []
+            ruta_carpeta_seguidor = os.getenv("FOLLOWER_RESOURCES_3")
+            for ruta in lista_rutas:
+                file_path = os.path.join(ruta_carpeta_seguidor, ruta)
+                file_paths.append(file_path)
+            
+            print(f'\n\nRutas de los bloques a descargar: {file_paths}\n\n')
+            
+            lista_contenido_bloques_seguidor = []
+            
+            # Verificar si los archivos existen
+            for file_path in file_paths:
+                if not os.path.isfile(file_path):
+                    print(file_path)
+                    context.set_code(grpc.StatusCode.NOT_FOUND)
+                    context.set_details(f"El archivo {file_path} no existe.")
+                    response.estado_exitoso = False
+                    return response
+                else:
+                    print(f'\nArchivo encontrado: {file_path}')
+                    # Leer el contenido del archivo, agregarlo a la lista y envía el contenido al cliente
+                    with open(file_path, 'rb') as f:
+                        lista_contenido_bloques_seguidor.append(f.read())
+            
+            # Limitar el número de bloques a procesar para evitar sobrepasar el tamaño de la lista
+            num_bloques = len(lista_contenido_bloques_seguidor)
+            
+            print(f'Número de bloques: {num_bloques}')
+            # Imprimir los primeros 40 bytes de cada bloque sin repetir ni exceder el número de bloques
+            for idx, bloque in enumerate(lista_contenido_bloques_seguidor[:num_bloques]):  # Limitar la iteración
+                print(f'Primeros 40 bytes del bloque {idx}: {bloque[:40]}')
+                
+            # Si la lista de lista_id_data_node_seguidor es mayor a 1, se conecta con el siguiente DataNode
+            if len(request.lista_id_data_node_seguidor) >= 1:
+                pipeline_request = pb2.PipeLineForGetDataNodeRequest()
+                pipeline_request.nombre_archivo = request.nombre_archivo
+                pipeline_request.lista_id_data_node_seguidor.extend(request.lista_id_data_node_seguidor)
+                pipeline_request.rutas_bloques_seguidor.extend(request.rutas_bloques_seguidor)
+                
+                print("\n\n\nContenido de la petición que se va a hacer a datanode siguiente...")
+                print(f'Nombre del archivo: {pipeline_request.nombre_archivo}')
+                print(f'Lista de ID de DataNode seguidor: {pipeline_request.lista_id_data_node_seguidor}')
+                print(f'Rutas de bloques seguidor: {pipeline_request.rutas_bloques_seguidor}')
+                
+                dato = self.connectToDataNodeForDownload(datanode_ip_1, datanode_port_1, pipeline_request)
+                # Contenido de los bloques del siguiente DataNode
+                response.lista_contenido_bloques_seguidor.extend(dato.lista_contenido_bloques_seguidor)
+                
+                # Pausar el programa por 5 segundos
+                time.sleep(5)
+            
+            
+            # Si la lista de bloques es mayor a 0, se retornan la lista de contenido de bloques y el estado exitoso
+            if len(lista_contenido_bloques_seguidor) > 0:
+                # Debes agregar cada bloque manualmente a la lista `repeated bytes` en el response
+                for bloque in lista_contenido_bloques_seguidor:
+                    response.lista_contenido_bloques_seguidor.append(bloque)
+            
+                response.estado_exitoso = True
+            else:
+                response.estado_exitoso = False
+            
+            print(f'Estado exitoso: {response.estado_exitoso}')
+        except FileNotFoundError as e:
+            context.set_code(grpc.StatusCode.NOT_FOUND)
+            context.set_details(str(e))
+            response.estado_exitoso = False
+            print(f"Error al descargar el archivo: {e}")
+        except Exception as e:
+            context.set_code(grpc.StatusCode.UNKNOWN)
+            context.set_details("Error inesperado en la aplicación.")
+            response.estado_exitoso = False
+            print(f"Error inesperado: {e}")
+
+        return response
+
+
+
     def DeleteFileDataNodeClient(self, request, context):
         response = pb2.DeleteFileDataNodeResponse()
         leader_resources = os.getenv("LEADER_RESOURCES_3")
@@ -525,6 +626,27 @@ class FullServicesServicer(pb2_grpc.FullServicesServicer):
         except Exception as e:
             print(f'Error al conectar con DataNode {datanode_ip}:{datanode_port}: {e}')
 
+    def connectToDataNodeForDownload(self, datanode_ip, datanode_port, pipeline_request):
+            try:
+                with grpc.insecure_channel(f'{datanode_ip}:{datanode_port}') as channel:
+                    print("aaaaaaaaaa")
+                    stub = pb2_grpc.FullServicesStub(channel) 
+
+                    response = stub.PipeLineForGetDataNodeResponseDataNodeRequest(pipeline_request)
+                    print("xxxxxxxxxxxxxxxxxxxx")
+
+                    if response.estado_exitoso:
+                        print(f'Conexión exitosa con DataNode en {datanode_ip}:{datanode_port}')
+                        return response
+                    else:
+                        print(f'Error en la conexión hacia DataNode en {datanode_ip}:{datanode_port}')
+                        return None
+                
+            except Exception as e:
+                print(f'Error al conectar con DataNode {datanode_ip}:{datanode_port}: {e}')
+
+
+
     # Función para eliminar un archivo del NameNode
     def delete_file(self, nombre_archivo):
         print(f"Eliminando el archivo '{nombre_archivo}' del NameNode...")
@@ -575,7 +697,7 @@ def enviar_heart_beat_periodicamente(datanode_servicer, namenode_ip, namenode_po
         print("\n----\nEnviando HeartBeat al NameNode...")
         datanode_servicer.heartBeatDataNodeRequest(f'{namenode_ip}:{namenode_port}')
         print("\n----\n")
-        time.sleep(10)  # Esperar 10 segundos antes de enviar el siguiente HeartBeat
+        time.sleep(30)  # Esperar 30 segundos antes de enviar el siguiente HeartBeat
 
 def serve():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=1000))

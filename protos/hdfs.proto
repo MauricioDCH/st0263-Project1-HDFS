@@ -102,9 +102,6 @@ message DownloadFileClientRequest {
 
 message DownloadFileDataNodeResponse {
     repeated bytes lista_contenido_bloques_seguidor = 1; // Contenido de los bloques
-    //repeated int32 lista_id_bloque_seguidor = 2; // IDs de los bloques
-    //repeated int32 lista_tamano_bloque_seguidor = 3; // Tamanos de los bloques
-    //bool estado_exitoso = 4; // Estado de la descarga
     bool estado_exitoso = 2; // Estado de la descarga
 }
 
@@ -182,6 +179,18 @@ message DeleteFileNameNodeResponse{
     bool estado_exitoso = 1; // Estado de la operación de eliminación de archivo
 }
 
+// 13. Solicitud para obtener la pipeline de DataNodes para la lectura de un archivo.
+message PipeLineForGetDataNodeRequest {
+    string nombre_archivo = 1; // Nombre del archivo
+    repeated int32 lista_id_data_node_seguidor = 2; // IDs de los DataNodes donde se replicará este bloque
+    repeated string rutas_bloques_seguidor = 3; // Rutas de bloques del DataNode
+}
+
+
+message PipeLineForGetDataNodeResponse {
+    repeated bytes lista_contenido_bloques_seguidor = 1; // Contenido de los bloques
+    bool estado_exitoso = 2; // Estado de la descarga
+}
 
 // Definición del servicio FullServices
 service FullServices {
@@ -197,4 +206,5 @@ service FullServices {
     rpc ReadFileDataNodeClient(ReadFileClientRequest) returns (ReadFileDataNodeResponse);
     rpc PipeLineDataNodeResponseDataNodeRequest(PipeLineDataNodeRequest) returns (PipeLineDataNodeResponse);
     rpc DeleteFileNameNodeDataNode(DeleteFileDataNodeRequest) returns (DeleteFileNameNodeResponse);
+    rpc PipeLineForGetDataNodeResponseDataNodeRequest(PipeLineForGetDataNodeRequest) returns (PipeLineForGetDataNodeResponse);
 }
